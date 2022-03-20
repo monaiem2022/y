@@ -1,0 +1,599 @@
+body{
+    color: #fff;
+}
+
+
+nav.fixed-top{
+  
+    height: 60px;
+    background-color: black;
+}
+
+
+nav.fixed-top .youtubeIcon{
+    display: flex;
+}
+
+nav.fixed-top .youtubeIcon img{
+    height: 55px;
+    padding-left: 13px;
+    cursor: pointer;
+}
+
+nav.fixed-top  .youtubeIcon i:first-child{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+nav.fixed-top  .youtubeSearch input{
+    background-color: #000;
+    border: 1px solid  #dc3545 !important;
+    box-shadow: none !important;
+    height: 40px;
+
+}
+
+nav.fixed-top  .youtubeSearch .mic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #000;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+nav.fixed-top  .youtubeButton button{
+    width: 100px;
+    height: 40px;
+    background-color: #000 !important;
+    border: 1px solid #dc3545;
+    color: #fff;
+    box-shadow: none !important;
+    color: #5e84f1;
+}
+
+nav.fixed-top  .youtubeButton .signin2{
+    cursor: pointer;
+}
+
+
+
+
+
+
+nav.fixed-top  .youtubeButton .info{
+    min-height: 200px;
+    padding-bottom: 20px;
+    width: 80%;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    background-color: red;
+    box-shadow: 30px 30px 30px #000;
+    border-radius: 10px;
+    display: none;
+    z-index: 9;
+
+}
+nav.fixed-top  .youtubeButton .info .animate{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    display: none;
+}
+
+nav.fixed-top  .youtubeButton .info .infoHeader{
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    line-height: 50px;
+}
+
+nav.fixed-top  .youtubeButton .info .infoHeader .close{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    
+}
+
+nav.fixed-top  .youtubeButton .info .infoContnet .emailValidate{
+    display: none;
+    opacity: .6;
+    font-size: 12px;
+}
+
+nav.fixed-top  .youtubeButton .info .infoContnet .message{
+    display: none;
+    opacity: .6;
+    font-size: 12px;
+}
+
+
+nav.fixed-top .fixedMenu{
+    position: fixed;
+    height: 100%;
+    width: 90px;
+    background-color: #000;
+    left: 0px;
+    top: 55px;
+
+}
+
+nav.fixed-top .fixedMenu i{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+nav.fixed-top .fixedMenu .home, 
+nav.fixed-top .fixedMenu .clock,
+nav.fixed-top .fixedMenu .user,
+nav.fixed-top .fixedMenu .youtube{
+   cursor: pointer;
+   font-size: 11px;
+}
+
+
+header{
+
+    background-color: #000;
+    height: 60px;
+    
+}
+
+header .overlay{
+    min-height: 100vh;
+    background-color: #000;
+   
+}
+
+
+header .overlay h1{
+
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    font-size: 35px;
+}
+
+
+
+
+nav.fixed-top  .sidebar{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background-color: #000;
+    width: 200px;
+    left: -300px;
+    z-index: 20;
+    overflow-y: scroll;
+    z-index: 10;
+}
+
+nav.fixed-top .sidebar img{
+   height: 55px;
+   margin-left: 25px;  
+   margin-top: 0px; 
+   cursor: pointer;
+}
+
+nav.fixed-top  .sidebar hr{
+    background-color: #252525;
+    height: 1px;
+}
+
+
+nav.fixed-top  .sidebar .sidebar-youtube{
+    padding-left: 20px;
+
+}
+
+nav.fixed-top  .sidebar .sidebar-youtube i{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+ nav.fixed-top .sidebar .home {
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+ nav.fixed-top  .sidebar .home:hover{
+     background-color: #333;
+  
+ }
+ 
+ nav.fixed-top  .sidebar .home span{
+    font-size: 13px;
+ }
+ 
+
+nav.fixed-top .sidebar .clock {
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+ nav.fixed-top  .sidebar .clock:hover{
+     background-color: #333;
+     
+ }
+ 
+ nav.fixed-top  .sidebar .clock span{
+    font-size: 13px;
+ }
+ 
+
+ nav.fixed-top .sidebar .youtube {
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+ nav.fixed-top  .sidebar .youtube:hover{
+     background-color: #333;
+     
+ }
+
+
+ nav.fixed-top  .sidebar .youtube span{
+    font-size: 13px;
+ }
+
+ nav.fixed-top .sidebar .user {
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+ nav.fixed-top  .sidebar .user:hover{
+     background-color: #333;
+     
+ }
+
+
+ 
+ nav.fixed-top  .sidebar .user span{
+    font-size: 13px;
+ }
+ 
+ nav.fixed-top  .sidebar .like{
+     padding-left: 20px;
+     font-size: 13px;
+ }
+
+ nav.fixed-top  .sidebar .like button{
+    width: 100px;
+    height: 45px;
+    background-color: #000 !important;
+    border: 1px solid red;
+    color: #5e84f1;
+    box-shadow: none !important;
+    margin-top: 10px;
+}
+
+
+
+nav.fixed-top  .sidebar .best .best-title{
+    opacity: .5;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+
+
+nav.fixed-top .sidebar .best .music{
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+ nav.fixed-top  .sidebar .best .music:hover{
+     background-color: #333;
+  
+ }
+ 
+ nav.fixed-top  .sidebar .best .music span{
+    font-size: 13px;
+ }
+
+ nav.fixed-top  .sidebar .best .music i{
+    background-color: gray;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+ }
+ 
+
+ 
+nav.fixed-top .sidebar .best .sports{
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+ nav.fixed-top  .sidebar .best .sports:hover{
+     background-color: #333;
+  
+ }
+ 
+ nav.fixed-top  .sidebar .best .sports span{
+    font-size: 13px;
+ }
+ 
+ nav.fixed-top  .sidebar .best .sports i{
+    background-color: gray;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+ }
+ 
+
+ nav.fixed-top .sidebar .best .gaming{
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+ nav.fixed-top  .sidebar .best .gaming:hover{
+     background-color: #333;
+  
+ }
+ 
+ nav.fixed-top  .sidebar .best .gaming span{
+    font-size: 13px;
+ }
+ 
+ nav.fixed-top  .sidebar .best .gaming i{
+    background-color: gray;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+ }
+ 
+
+
+ nav.fixed-top .sidebar .best .news{
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+ nav.fixed-top  .sidebar .best .news:hover{
+     background-color: #333;
+  
+ }
+ 
+ nav.fixed-top  .sidebar .best .news span{
+    font-size: 13px;
+ }
+ 
+ nav.fixed-top  .sidebar .best .news i{
+    background-color: gray;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+ }
+ 
+ nav.fixed-top .sidebar .best .live{
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+    padding-left: 20px;
+
+    margin-bottom: 5px;
+}
+
+ nav.fixed-top  .sidebar .best .live:hover{
+     background-color: #333;
+  
+ }
+ 
+ nav.fixed-top  .sidebar .best .live span{
+    font-size: 16px;
+ }
+ 
+ nav.fixed-top  .sidebar .best .live i{
+    background-color: gray;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+ }
+ 
+/* .sidebar hr{
+    background-color: #333;
+    height: 1px;
+} */
+
+nav.fixed-top  .sidebar .copyrights div{
+    padding-left: 20px;
+    font-size:14px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar{
+width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(transparent,red);
+  border-radius: 6px;
+  height: 50px;
+  
+    }
+    
+ 
+
+
+
+
+
+
+
+
+
+
+  @media (min-width:991px){
+    nav.fixed-top  .youtubeButton .info{
+        width: 40%;
+    }
+
+
+  }
+
+
+  @media (min-width:360px)  and (max-width:480px){
+   nav.fixed-top  .youtubeButton button{
+   display: none;
+}
+    nav.fixed-top  .youtubeButton button.main{
+     display: none;
+    }
+    nav.fixed-top  .youtubeSearch input{
+    display: none;
+    }
+    nav.fixed-top  .youtubeSearch .mic{
+       display: none
+    }
+
+    
+    header .overlay h1{
+    font-size: 20px;
+    }
+
+    nav.fixed-top .sidebar  img{
+       margin-left: 15px;
+       margin-top: 4px;
+     }
+     
+     nav.fixed-top  .sidebar .home span{
+        font-size: 13px;
+     }
+     
+     nav.fixed-top  .sidebar .clock span{
+        font-size: 13px;
+     }
+
+     nav.fixed-top  .sidebar .youtube span{
+        font-size: 13px;
+     }
+     nav.fixed-top  .sidebar .user span{
+        font-size: 13px;
+     }
+     
+     nav.fixed-top  .sidebar .user .subscription{
+        font-size: 13px;
+     }
+
+     nav.fixed-top  .sidebar .like{
+        font-size: 13px;
+    }
+
+    nav.fixed-top  .sidebar .best .best-title{
+        font-size: 14px;
+    }
+
+    nav.fixed-top .sidebar .best .music i{
+      font-size: 13px;
+     
+    }
+
+    nav.fixed-top .sidebar .best .music span{
+        font-size: 13px;
+       
+      }
+
+      nav.fixed-top .sidebar .best .sport i{
+        font-size: 13px;
+       
+      }
+  
+      nav.fixed-top .sidebar .best .sport span{
+          font-size: 13px;
+         
+     }
+
+     nav.fixed-top .sidebar .best .gaming i{
+        font-size: 13px;
+       
+      }
+  
+      nav.fixed-top .sidebar .best .gaming span{
+          font-size: 13px;
+         
+        }
+
+        nav.fixed-top .sidebar .best .news i{
+            font-size: 13px;
+           
+          }
+      
+          nav.fixed-top .sidebar .best .news span{
+              font-size: 13px;
+             
+        }
+
+        nav.fixed-top .sidebar .best .live i{
+            font-size: 13px;
+           
+        }
+      
+          nav.fixed-top .sidebar .best .live span{
+              font-size: 13px;
+             
+        }
+
+  }
+
+
+
+  
