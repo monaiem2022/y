@@ -1,0 +1,949 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Caveat:wght@600&family=Great+Vibes&family=Lobster+Two:ital@1&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #fff;
+    background-color: #181818;
+    font-family: robot;
+}
+
+
+nav.fixed-top{
+    padding-top:2px;
+}
+
+
+
+
+section.largeVideo{
+    margin-top: 20px;
+}
+
+section.largeVideo .mainVideo{
+    position: relative;
+    /* height: 80%; */
+
+}
+
+section.largeVideo .mainVideo video{
+    /* height:400px; */
+    width: 100%;
+}
+
+section.largeVideo .mainVideo .add1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none
+}
+
+section.largeVideo .mainVideo .mainTimer{
+    /* display: none */
+}
+
+.smaalImg1{
+    position:absolute
+}
+
+section.largeVideo .mainVideo  .counter1{
+    position: absolute;
+    top: 370px;
+    right: 90px;
+    color: #fff;
+    font-size:12px;
+    display:none;
+}
+
+
+section.largeVideo .mainVideo  .counterTitle1{
+    position: absolute;
+    top: 370px;
+    right: 20px;
+    color: #fff;
+    font-size:11px;
+    display:none;
+}
+
+section.largeVideo .mainVideo  .counterTitle2{
+    position: absolute;
+    top: 370px;
+    right: 20px;
+    color: #fff;
+    font-size:11px;
+    display:none;
+
+}
+
+
+section.largeVideo .mainVideo  button{
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    color: #fff;
+    font-size:11px;
+    cursor:pointer;
+    display:none;
+    opacity:.5;
+    box-shadow:none !important
+}
+
+
+section.largeVideo .mainVideo  .create{
+    position: absolute;
+    top:0;
+    background-color:#000;
+    overflow:hidden;
+    font-size:12px;
+    cursor:pointer;
+    display:none;
+    transition:all.6s ease
+}
+
+
+section.largeVideo .mainVideo .content{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    z-index: 6;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+section.largeVideo .mainVideo .mainVideoAnimate{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    z-index: 6;
+    display: none;
+}
+
+
+section.largeVideo .mainVideo .videoImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 430px;
+    background-image: url(../images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+    cursor: pointer;
+}
+
+
+
+section.largeVideo .mainVideo .logo{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    font-size: 30px;
+    color: red;
+}
+
+#mainVideo {
+    position: relative;
+}
+
+
+
+section.largeVideo .mainVideo .mainTitle{
+    font-size: 16px;
+}
+
+
+section.largeVideo .mainVideo .mainWatchNumber .mainViews{
+    font-size: 14px;
+    opacity: .5;
+    font-weight: 300;
+}
+
+
+section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
+    font-size: 12px;
+    opacity: .5;
+    margin-right: 30px;
+
+}
+
+section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
+    margin-left: 20px;
+}
+
+
+section.largeVideo .mainVideo .mainWatchNumber .mainDate{
+    cursor: pointer;
+    font-size: 12px;
+    opacity: .5;
+    font-weight: 300;
+}
+
+section.largeVideo hr{
+    background-color:#252525
+}
+
+.subscribe{
+    cursor: pointer;
+}
+
+
+.hola img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.mainSubscribers {
+    font-size: 12px;
+    opacity: .5;
+}
+
+.mainShowMore, .show{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.insideMainShowMore{
+    display: none;
+    font-size:14px;
+    font-weight: 300;
+}
+
+
+
+.comment img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+.comment form {
+    width: 94%;
+}
+
+.comment form input{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background-color: #181818 !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #252525 !important;
+    margin-left: 10px;
+}
+
+.commentDiv{
+    margin-left: 22px;
+    font-size: 14px;
+}
+
+.button button{
+    background-color: red;
+    color: #fff;
+    box-shadow: none!important;
+    width: 100px;
+}
+
+.button button:hover{
+    color: #fff !important;
+}
+
+
+
+
+
+
+/*end of main video*/
+
+/*start of small video*/
+
+section.largeVideo .videoList video{
+    max-width: 150px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+section.largeVideo .videoList .watchTitle{
+    font-size: 13px;
+
+    
+}
+
+section.largeVideo .videoList .watchViews{
+    font-size: 12px;
+    opacity: .5;
+    font-weight: 300;
+}
+
+section.largeVideo .videoList .hide{
+    display: none;
+}
+
+section.largeVideo .videoList  .watchName{
+    font-size: 12px;
+    opacity: .5;
+}
+
+
+section.largeVideo .videoList .image1,
+section.largeVideo .videoList .image2,
+section.largeVideo .videoList .image3,
+section.largeVideo .videoList .image4,
+section.largeVideo .videoList .image5,
+section.largeVideo .videoList .image6,
+section.largeVideo .videoList .image7,
+section.largeVideo .videoList .image8{
+    position: relative;
+}
+
+section.largeVideo .videoList .image1 img, 
+section.largeVideo .videoList .image2 img,
+section.largeVideo .videoList .image3 img,
+section.largeVideo .videoList .image4 img,
+section.largeVideo .videoList .image5 img,
+section.largeVideo .videoList .image6 img,
+section.largeVideo .videoList .image7 img,
+section.largeVideo .videoList .image8 img{
+    position: absolute;
+    top: 0;
+    left: -14px;
+    height: 90px;
+    width: 50%;
+    cursor: pointer;
+    z-index: 7;
+    
+    /* box-shadow: 10px 10px 10px black ; */
+}
+
+
+
+@media (min-width:360px) and (max-width:411px) {
+
+    
+    .subscribe .mainName{
+        font-size: 13px;
+        opacity:.8
+
+    }
+
+    section.largeVideo .mainVideo .videoImg{
+      height: 200px;
+    }
+    
+       nav.fixed-top  .youtubeSearch input{
+       display: none;
+       }
+       nav.fixed-top  .youtubeSearch .mic{
+          display: none
+       }
+   
+
+       section.largeVideo .mainVideo .mainTitle{
+         font-size: 11px;
+         margin-top: 20px;
+      }
+
+
+section.largeVideo .mainVideo .mainWatchNumber .mainViews{
+    font-size: 14px;
+
+}
+
+
+section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
+    font-size: 10px;
+
+}
+
+section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
+    margin-left: 5px;
+}
+
+
+section.largeVideo .mainVideo .mainWatchNumber .mainDate{
+    font-size: 10px;
+}
+
+
+
+
+
+.comment{
+    margin-bottom: 30px;
+}
+
+
+.button button{
+    margin-left: -50px;
+}
+
+
+section.largeVideo .videoList .watchTitle{
+    font-size: 11px;
+    margin-left: 10px;
+
+}
+
+section.largeVideo .videoList .watchViews{
+    font-size: 11px;
+    margin-left: 10px;
+
+}
+
+section.largeVideo .videoList  .watchName{
+    font-size: 11px;
+    margin-left: 10px;
+
+}
+
+
+section.largeVideo .videoList .image1 img, 
+section.largeVideo .videoList .image2 img,
+section.largeVideo .videoList .image3 img,
+section.largeVideo .videoList .image4 img,
+section.largeVideo .videoList .image5 img,
+section.largeVideo .videoList .image6 img,
+section.largeVideo .videoList .image7 img,
+section.largeVideo .videoList .image8 img{
+   
+    width: 65%;
+    cursor: pointer;
+    z-index: 7;
+    
+    /* box-shadow: 10px 10px 10px black ; */
+}
+
+}
+
+
+
+
+
+.add1{
+    position:absolute;
+    top:0;
+    left:0;
+    height:90%;
+    display:none;
+}
+
+
+
+
+@media (min-width:412px) and (max-width:479px) {
+  
+    section.largeVideo .mainVideo .videoImg{
+      height: 200px;
+    }
+    
+       nav.fixed-top  .youtubeSearch input{
+       display: none;
+       }
+       nav.fixed-top  .youtubeSearch .mic{
+          display: none
+       }
+   
+
+       section.largeVideo .mainVideo .mainTitle{
+         font-size: 11px;
+         margin-top: 5px;
+      }
+
+
+        section.largeVideo .mainVideo .mainWatchNumber .mainViews{
+            font-size: 14px;
+
+        }
+
+
+        section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
+            font-size: 10px;
+
+        }
+
+        section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
+            margin-left: 5px;
+        }
+
+
+        section.largeVideo .mainVideo .mainWatchNumber .mainDate{
+            font-size: 10px;
+        }
+
+
+
+
+
+        .comment{
+            margin-bottom: 30px;
+        }
+
+
+        .button button{
+            margin-left: -50px;
+        }
+
+
+        section.largeVideo .videoList .watchTitle{
+            font-size: 11px;
+            margin-left: 43px;
+        }
+
+        section.largeVideo .videoList .watchViews{
+            font-size: 11px;
+            margin-left: 43px;
+
+        }
+
+        section.largeVideo .videoList  .watchName{
+            font-size: 11px;
+            margin-left: 43px;
+
+        }
+
+
+        section.largeVideo .videoList .image1 img, 
+        section.largeVideo .videoList .image2 img,
+        section.largeVideo .videoList .image3 img,
+        section.largeVideo .videoList .image4 img,
+        section.largeVideo .videoList .image5 img,
+        section.largeVideo .videoList .image6 img,
+        section.largeVideo .videoList .image7 img,
+        section.largeVideo .videoList .image8 img{
+        
+            width: 65%;
+            cursor: pointer;
+            z-index: 7;
+            
+            /* box-shadow: 10px 10px 10px black ; */
+        }
+
+        }
+
+        .add, .add2, .add3{
+            position:absolute;
+            top:0;
+            left:0;
+            width: 100%;
+
+            display:none;
+        }
+
+
+
+@media (min-width:480px) and (max-width:575px) {
+  
+    section.largeVideo .mainVideo .videoImg{
+      height: 250px;
+    }
+    
+       nav.fixed-top  .youtubeSearch input{
+       display: none;
+       }
+       nav.fixed-top  .youtubeSearch .mic{
+          display: none
+       }
+   
+
+       section.largeVideo .mainVideo .mainTitle{
+         font-size: 11px;
+         margin-top: 8px;
+      }
+
+
+
+
+
+        .comment{
+            margin-bottom: 30px;
+        }
+
+
+        .button button{
+            margin-left: -50px;
+        }
+
+
+        section.largeVideo .videoList .watchTitle{
+            font-size: 11px;
+            margin-left: 85px;
+        }
+
+        section.largeVideo .videoList .watchViews{
+            font-size: 11px;
+            margin-left: 85px;
+
+        }
+
+        section.largeVideo .videoList  .watchName{
+            font-size: 11px;
+            margin-left: 85px;
+
+        }
+
+
+        section.largeVideo .videoList .image1 img, 
+        section.largeVideo .videoList .image2 img,
+        section.largeVideo .videoList .image3 img,
+        section.largeVideo .videoList .image4 img,
+        section.largeVideo .videoList .image5 img,
+        section.largeVideo .videoList .image6 img,
+        section.largeVideo .videoList .image7 img,
+        section.largeVideo .videoList .image8 img{
+        
+            width: 65%;
+            cursor: pointer;
+            z-index: 7;
+            
+            /* box-shadow: 10px 10px 10px black ; */
+        }
+
+        }
+
+
+        .add, .add2, .add3{
+            position:absolute;
+            top:0;
+            left:0;
+            width: 100%;
+
+            display:none;
+        }
+
+
+
+
+    
+    @media (min-width:576px)  and (max-width:711px){
+        .mic{
+            display: none;
+        }
+        nav.fixed-top  .youtubeButton button{
+         display: none;
+        }
+        nav.fixed-top  .youtubeSearch input{
+        display: none;
+        
+        }
+
+
+    section.largeVideo .mainVideo .mainTitle{
+        font-size: 14px;
+        margin-top: 170px;
+    }
+ 
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainViews{
+        font-size: 14px;
+    
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
+        font-size: 14px;
+    
+    }
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
+        margin-left: 5px;
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainDate{
+        font-size: 16px;
+    }
+    
+    .insideMainShowMore{
+        font-size:16px;
+    }
+    
+    
+    section.largeVideo .videoList .watchTitle{
+        font-size: 14px;
+        margin-left: 70px;
+       
+    }
+    
+    section.largeVideo .videoList .watchViews{
+        font-size: 14px;
+        margin-left: 70px;
+    }
+    
+    section.largeVideo .videoList  .watchName{
+        font-size: 14px;
+        margin-left: 70px;
+    }
+
+    
+    
+    }
+
+
+
+
+    
+    
+    @media (max-width:712px){
+        .mic{
+            display: none;
+        }
+        nav.fixed-top  .youtubeButton button{
+         display: none;
+        }
+        nav.fixed-top  .youtubeSearch input{
+        display: none;
+        
+        }
+
+
+    section.largeVideo .mainVideo .mainTitle{
+        font-size: 14px;
+        margin-top: 65px;
+    }
+ 
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainViews{
+        font-size: 14px;
+    
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
+        font-size: 14px;
+    
+    }
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
+        margin-left: 5px;
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainDate{
+        font-size: 16px;
+    }
+    
+    .insideMainShowMore{
+        font-size:16px;
+    }
+    
+    
+    section.largeVideo .videoList .watchTitle{
+        font-size: 14px;
+        margin-left: 270px;
+       
+    }
+    
+    section.largeVideo .videoList .watchViews{
+        font-size: 14px;
+        margin-left: 270px;
+    }
+    
+    section.largeVideo .videoList  .watchName{
+        font-size: 14px;
+        margin-left: 270px;
+    }
+
+    
+    section.largeVideo .videoList .image1 img, 
+    section.largeVideo .videoList .image2 img,
+    section.largeVideo .videoList .image3 img,
+    section.largeVideo .videoList .image4 img,
+    section.largeVideo .videoList .image5 img,
+    section.largeVideo .videoList .image6 img,
+    section.largeVideo .videoList .image7 img,
+    section.largeVideo .videoList .image8 img{
+    
+        width: 70%;
+        cursor: pointer;
+        z-index: 7;
+        
+        /* box-shadow: 10px 10px 10px black ; */
+    }
+    
+    }
+
+
+
+       
+    
+    @media (min-width:768px)  and (max-width:900px){
+        nav.fixed-top  .youtubeButton button{
+         display: none;
+        }
+        nav.fixed-top  .youtubeSearch input{
+        display: none;
+        
+        }
+
+
+    section.largeVideo .mainVideo .mainTitle{
+        font-size: 16px;
+        margin-top: 35px;
+    }
+ 
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainViews{
+        font-size: 14px;
+    
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
+        font-size: 14px;
+    
+    }
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
+        margin-left: 5px;
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainDate{
+        font-size: 16px;
+    }
+    
+    .insideMainShowMore{
+        font-size:16px;
+    }
+    
+    
+    section.largeVideo .videoList .watchTitle{
+        font-size: 14px;
+        margin-left: 345px;
+
+       
+    }
+    
+    section.largeVideo .videoList .watchViews{
+        font-size: 14px;
+        margin-left: 345px;
+    }
+    
+    section.largeVideo .videoList  .watchName{
+        font-size: 14px;
+        margin-left: 345px;
+    }
+
+    .comment{
+        margin-bottom: 50px;
+    }
+
+    section.largeVideo .videoList .image1 img, 
+    section.largeVideo .videoList .image2 img,
+    section.largeVideo .videoList .image3 img,
+    section.largeVideo .videoList .image4 img,
+    section.largeVideo .videoList .image5 img,
+    section.largeVideo .videoList .image6 img,
+    section.largeVideo .videoList .image7 img,
+    section.largeVideo .videoList .image8 img{
+    
+        width: 75%;
+        cursor: pointer;
+        z-index: 7;
+        
+        /* box-shadow: 10px 10px 10px black ; */
+    }
+    
+    
+    }
+
+
+
+    
+    @media (min-width:912px)  and (max-width:991px){
+        section.largeVideo .mainVideo .videoImg{
+            height: 500px;
+          }
+          
+
+        nav.fixed-top  .youtubeButton button{
+         display: none;
+        }
+        nav.fixed-top  .youtubeSearch input{
+        display: none;
+        
+        }
+
+
+    section.largeVideo .mainVideo .mainTitle{
+        font-size: 16px;
+        margin-top: 30px;
+        }
+ 
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainViews{
+        font-size: 14px;
+    
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
+        font-size: 14px;
+    
+    }
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
+        margin-left: 5px;
+    }
+    
+    
+    section.largeVideo .mainVideo .mainWatchNumber .mainDate{
+        font-size: 16px;
+    }
+    
+    .insideMainShowMore{
+        font-size:16px;
+    }
+    
+    
+    section.largeVideo .videoList .watchTitle{
+        font-size: 14px;
+        margin-left: 460px;
+
+       
+    }
+    
+    section.largeVideo .videoList .watchViews{
+        font-size: 14px;
+        margin-left: 460px;
+    }
+    
+    section.largeVideo .videoList  .watchName{
+        font-size: 14px;
+        margin-left: 460px;
+    }
+
+    .comment{
+        margin-bottom: 50px;
+    }
+
+    section.largeVideo .videoList .image1 img, 
+    section.largeVideo .videoList .image2 img,
+    section.largeVideo .videoList .image3 img,
+    section.largeVideo .videoList .image4 img,
+    section.largeVideo .videoList .image5 img,
+    section.largeVideo .videoList .image6 img,
+    section.largeVideo .videoList .image7 img,
+    section.largeVideo .videoList .image8 img{
+    
+        width: 75%;
+        cursor: pointer;
+        z-index: 7;
+        
+        /* box-shadow: 10px 10px 10px black ; */
+    }
+    
+    
+    }
+
