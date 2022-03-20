@@ -335,7 +335,8 @@ section.largeVideo .videoList .image8 img{
     
 
     .button .sub{
-        margin-left:-50px
+        margin-left:-100px;
+        color:green
     }
 
     section.largeVideo .videoList .watchTitle{
