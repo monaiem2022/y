@@ -327,7 +327,7 @@ section.largeVideo .videoList .image8 img{
 }
 
 
-@media (min-width:360px){
+@media (max-width:360px){
     section.largeVideo .mainVideo .mainTitle{
         margin-top:5px;
         color:red
