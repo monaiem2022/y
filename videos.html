@@ -161,7 +161,7 @@
              
               <div class="mainVideo">
                
-                <video id="mainVideo" src="animal.mp4" controls autoplay ></video>
+                <video id="mainVideo" src="video1.mp4" controls autoplay ></video>
                 <span id="counterTitle1" class="counterTitle1">يظهر اعلان بعد</span>
                 <div class="counter1" id="counter1">10</div>
                 <span id="counterTitle2" class="counterTitle2">ينتهى الاعلان بعد</span>
@@ -172,7 +172,7 @@
                 <video class="add1 one" src="ad2.mp4" data-duration="64"></video>
                 <video class="add1 one" src="ad3.mp4" data-duration="85"></video>
                 <video class="add1 one" src="ad4.mp4" data-duration="41"></video>
-                 <button id="skip" class="btn btn-dark" >SKIP ADD</button>
+                 <button class="skip" id="skip" class="btn btn-dark" >SKIP ADD</button>
                  <div id="create" class="create">How to create a div in javascript...</div>
                 
                 <div id="content" class="content">محتوى الفيديو لا يعبر عن الواقع..لعدم توفر الفيديوهات  ..أحمد منعم..                        
@@ -214,17 +214,60 @@
                </div>
               </div>
               <hr>
-             
+
+              <div class="subscribe">
+                <div class="row">
+                  <div class="col-9">
+                    <div class="channelImage d-flex">
+                     <div class="hola mt-1"> <img class="mainImg" src="image1.jpg"></div>
+                      <div>
+                        <div class="mainName ml-2">Elzero</div>
+                        <div class="mainSubscribers ml-2">6,42 M subscribers</div>
+                        <div class="mainShowMore ml-2 mt-5">
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                        </div>
+                        <div id="insideMainShowMore" class="insideMainShowMore ml-2">
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                        </div>
+                        
+                        <div id="show" class="show ml-2 mt-1">Show more...</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3 text-right">
+                    <div class="button">
+                      <button id="sub" class="btn btn">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="comment d-flex">
+                <img class="commentImg" src="image1.jpg" alt="">
+               <form class="control">
+                <input type="text" class="form-control inputComment" placeholder="Add A Dynamic Comment">
+                <div class="commentDiv">
+                </div>
+               </form>
+               
+              </div>
+
+              
         
+          
             </div>  <!--end of col-lg-8-->
 
-          
+         
             <div class="col-lg-4 col-sm-12">
-              <div class="videoList">
-                <div  class="image1 d-flex">
-                  <img class="two" id="image1" src="image1.jpg" alt="">
-                  <video id="video1" src="song5.mp4"></video>         
-                  <div class="pl-5">
+                <div class="videoList">
+                 <div class="d-flex">
+                   <div class="image1">
+                    <img id="image1"  src="image1.jpg" alt="">
+                    <video id='video1' src="video1.mp4"></video>   
+                   </div>
+                   <div>
                     <div class="watchTitle">
                      How you learn and remember..
                     </div>
@@ -246,193 +289,233 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                   
+                 </div>
               </div>
+
               <div class="videoList">
-                <div  class="image2 d-flex">
-                  <video id="video2" src="song5.mp4"></video>
-                  <img class="two" id="image2" src="image1-1.jpg" alt="">
-                  <div class="pl-5">
-                    <div class="watchTitle">
-                      how to create a div in javascript
-                    </div>
-                    <div class="watchViews ">
-                    30 M views 1 years ago Jan 2012
-                    </div>
-                    <div class="watchName">Shaheen</div>
-                    <div class="hide">
-                      <span class=" watchLike">120K</span>
-                      <div class="watchDate">30 Jan, 2012 </div>
-                      <div class="watchSubscribers">1m subscribers</div>
-                      <div class="watchShowMore ml-2 mt-5">
-                        الأسطورة محمد صلاح: المدرب برة بيعاملك إن أنت انسان، ونفسي ده اللي يتغير في مصر
-                        لقاء 
-                        خاص مع الملك المصري محمد صلاح في ضيافة الاعلامية الكبيرة اسعاد يونس على شاشة قنوات DMC
-                      </div>
-                      <div class="insideWatchShowMore ml-2">
-                        لمشاهدة الجزء الاول من لقاء الفرعون المصري محمد صلاح : https://bit.ly/370wPcp
-                        لمشاهدة الجزء الثانى من لقاء الفرعون المصرى محمد صلاح: https://youtu.be/7_iX5BQggNI
-                        لمشاهدة جميع مقاطع لقاء محمد صلاح : https://bit.ly/3CpvVSx
-                      </div>
-                    </div>
+                <div class="d-flex">
+                  <div class="image1">
+                   <img id="image2"  src="image1-3.jpg" alt="">
+                   <video id='video2' src="video2.mp4"></video>   
                   </div>
+                  <div>
+                   <div class="watchTitle">
+                    How you learn and remember..
+                   </div>
+                   <div class="watchViews ">
+                     3M views 3 years ago Aug 2019
+                   </div>
+                   <div class="watchName">Elzero</div>
+                   <div class="hide">
+                     <span class=" watchLike">100K</span>
+                     <div class="watchDate"> 3M views 3 years ago Aug 2019</div>
+                     <div class="watchSubscribers">6,42 M subscribers</div>
+                     <div class="watchShowMore ml-2 mt-5">
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     </div>
+                     <div class="insideWatchShowMore ml-2">
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     </div>
+                   </div>
+                 </div>
+                  
                 </div>
+             </div>
+
+             <div class="videoList">
+              <div class="d-flex">
+                <div class="image1">
+                 <img id="image3"  src="image1-2.jpg" alt="">
+                 <video id='video3' src="video3.mp4"></video>   
+                </div>
+                <div>
+                 <div class="watchTitle">
+                  How you learn and remember..
+                 </div>
+                 <div class="watchViews ">
+                   3M views 3 years ago Aug 2019
+                 </div>
+                 <div class="watchName">Elzero</div>
+                 <div class="hide">
+                   <span class=" watchLike">100K</span>
+                   <div class="watchDate"> 3M views 3 years ago Aug 2019</div>
+                   <div class="watchSubscribers">6,42 M subscribers</div>
+                   <div class="watchShowMore ml-2 mt-5">
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   </div>
+                   <div class="insideWatchShowMore ml-2">
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   </div>
+                 </div>
+               </div>
+                
               </div>
-              <div class="videoList">
-                <div  class="image3 d-flex">
-                  <video id="video3" src="sport2.mp4"></video>
-                  <img class="two" id="image3" src="image1-2.jpg" alt="">
-                  <div class="pl-5">
-                    <div class="watchTitle">
-                      amazing what you will learn..be ready..
-                    </div>
-                    <div class="watchViews ">
-                     
-                    </div>
-                    <div class="watchViews">
-                      30 M views 1 years ago Jan 2012 
-                    </div>
-                    <div class="watchName">CodeZilla</div>
-                    <div class="hide">
-                      <span class=" watchLike">120K</span>
-                      <div class="watchDate"> 30 M views 1 years ago Jan 2012 </div>
-                      <div class="watchSubscribers">2m subscribers</div>
-                      <div class="watchShowMore ml-2 mt-5">
-                        جمهور التالتة - فقرة "معلوماتي وما وراء الخبر" مع أحمد عبد الباسط وميسرة نوح
-                        "#ONTime_Sports #جمهور_التالتة
-                      </div>
-                      <div class="insideWatchShowMore ml-2">
-                        جمهور التالتة برنامج يناقش جميع القضايا الرياضية
-                         فى مصر والوطن العربى وأوروبا ويفجر المفاجأت والقضايا الشائكة وطرح اراء 
-                        الجماهير فى كل ما يخص الرياضة، 
-                        وهو من تقديم إبراهيم فايق، يعرض من الجمعة الى الأثنين فى تمام الساعه 11 مساءً
-                        
-                        لمشاهدة الحلقة كاملة: https://bit.ly/3ISGAYc
-                        لمشاهدة جميع مقاطع برنامج جمهور التالتة: https://bit.ly/3itbvPL
-                        لمتابعة جميع الأخبار الرياضية الحصرية ومواعيد المباريات اشترك الان: 
-                        https://bit.ly/334Ed0r        
-                        للمزيد تابعونا على:
-                        https://www.facebook.com/OnTimeSports
-                        https://twitter.com/ONTimeSportseg
-                        https://www.instagram.com/ontimesport..."
-                      </div>
-                    </div>
-                  </div>
-                </div>
+           </div>
+           <div class="videoList">
+            <div class="d-flex">
+              <div class="image1">
+               <img id="image4"  src="image1-4.jpg" alt="">
+               <video id='video4' src="video4.mp4"></video>   
               </div>
-              <div class="videoList">
-                <div  class="image4 d-flex">
-                  <video id="video4" src="song6.mp4"></video>
-                  <img class="two" id="image4" src="image1-3.jpg" alt="">
-                  <div class="pl-5">
-                    <div class="watchTitle">
-                    enjoy studying javascript
-                    </div>
-                    <div class="watchViews ">
-                      3M views 3 years ago APR 2022
-                    </div>
-                    <div class="watchName">Programmer</div>
-                    <div class="hide">
-                      <span class=" watchLike">180K</span>
-                      <div class="watchDate"> 3M views 3 years ago Aug 2022</div>
-                      <div class="watchSubscribers">3m subscribers</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="videoList">
-                <div  class="image5 d-flex">
-                  <video id="video5" src="stories1.mp4"></video>
-                  <img class="two" id="image5" src="image1-4.jpg" alt="">
-                  <div class="pl-5">
-                    <div class="watchTitle">
-                     follow us to know new featuers..
-                    </div>
-                    <div class="watchViews ">
-                      350M views 3 years ago Aug 2019
-                    </div>
-                    <div class="watchName">Shaheen</div>
-                    <div class="hide">
-                      <span class=" watchLike">2000K</span>
-                      <div class="watchDate">20 JUL, 2015 </div>
-                      <div class="watchSubscribers">4m subscribers</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="videoList">
-                <div  class="image6 d-flex">
-                  <video id="video6" src="stories2.mp4"></video>
-                  <img class="two" id="image6" src="image1-5.jpg" alt="">
-                  <div class="pl-5">
-                    <div class="watchTitle">
-                     send us any question to answer
-                    </div>
-                    <div class="watchViews ">
-                      3M views 1 years ago JUN 2021
-                    </div>
-                    <div class="watchName">Hsoub</div>
-                    <div class="hide">
-                      <span class=" watchLike">120K</span>
-                      <div class="watchDate">3M views 3 years ago Aug 2021</div>
-                      <div class="watchSubscribers">5m subscribers</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="videoList">
-                <div  class="image7 d-flex">
-                  <video id="video7" src="stories4.mp4"></video>
-                  <img class="two" id="image7" src="image1-6.jpg" alt="">
-                  <div class="pl-5">
-                    <div class="watchTitle">
-                     study to know what you do not..
-                    </div>
-                    <div class="watchViews ">
-                      320M views  years ago APR 2022
-                    </div>
-                    <div class="watchName">Talal</div>
-                    <div class="hide">
-                      <span class=" watchLike">560K</span>
-                      <div class="watchDate">3M views  years ago APR 2022</div>
-                      <div class="watchSubscribers">6m subscribers</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="videoList">
-                <div  class="image8 d-flex">
-                  <video id="video8" src="sport4.mp4"></video>
-                  <img class="two" id="image8" src="image1-7.jpg" alt="">
-                  <div class="pl-5">
-                    <div class="watchTitle">
-                     to next level..
-                    </div>
-                    <div class="watchViews ">
-                      300M views 3 years ago Aug 2019
-                    </div>
-                    <div class="watchName">Aflam</div>
-                    <div class="hide">
-                      <span class=" watchLike">100K</span>
-                      <div class="watchDate">300M views 3 years ago Aug 2019</div>
-                      <div class="watchSubscribers">7m subscribers</div>
-                    </div>
-                  </div>
-                </div>
+              <div>
+               <div class="watchTitle">
+                How you learn and remember..
+               </div>
+               <div class="watchViews ">
+                 3M views 3 years ago Aug 2019
+               </div>
+               <div class="watchName">Elzero</div>
+               <div class="hide">
+                 <span class=" watchLike">100K</span>
+                 <div class="watchDate"> 3M views 3 years ago Aug 2019</div>
+                 <div class="watchSubscribers">6,42 M subscribers</div>
+                 <div class="watchShowMore ml-2 mt-5">
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 </div>
+                 <div class="insideWatchShowMore ml-2">
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 </div>
+               </div>
+             </div>
+              
+            </div>
+         </div>
+         <div class="videoList">
+          <div class="d-flex">
+            <div class="image1">
+             <img id="image5"  src="image1-5.jpg" alt="">
+             <video id='video5' src="video5.mp4"></video>   
+            </div>
+            <div>
+             <div class="watchTitle">
+              How you learn and remember..
+             </div>
+             <div class="watchViews ">
+               3M views 3 years ago Aug 2019
+             </div>
+             <div class="watchName">Elzero</div>
+             <div class="hide">
+               <span class=" watchLike">100K</span>
+               <div class="watchDate"> 3M views 3 years ago Aug 2019</div>
+               <div class="watchSubscribers">6,42 M subscribers</div>
+               <div class="watchShowMore ml-2 mt-5">
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               </div>
+               <div class="insideWatchShowMore ml-2">
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               </div>
+             </div>
+           </div>
+            
+          </div>
+       </div>
+       <div class="videoList">
+        <div class="d-flex">
+          <div class="image1">
+           <img id="image6"  src="image1-6.jpg" alt="">
+           <video id='video6' src="video6.mp4"></video>   
+          </div>
+          <div>
+           <div class="watchTitle">
+            How you learn and remember..
+           </div>
+           <div class="watchViews ">
+             3M views 3 years ago Aug 2019
+           </div>
+           <div class="watchName">Elzero</div>
+           <div class="hide">
+             <span class=" watchLike">100K</span>
+             <div class="watchDate"> 3M views 3 years ago Aug 2019</div>
+             <div class="watchSubscribers">6,42 M subscribers</div>
+             <div class="watchShowMore ml-2 mt-5">
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             </div>
+             <div class="insideWatchShowMore ml-2">
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             </div>
+           </div>
+         </div>
+          
+        </div>
+     </div>
+     <div class="videoList">
+      <div class="d-flex">
+        <div class="image1">
+         <img id="image7"  src="image1-7.jpg" alt="">
+         <video id='video7' src="video7.mp4"></video>   
+        </div>
+        <div>
+         <div class="watchTitle">
+          How you learn and remember..
+         </div>
+         <div class="watchViews ">
+           3M views 3 years ago Aug 2019
+         </div>
+         <div class="watchName">Elzero</div>
+         <div class="hide">
+           <span class=" watchLike">100K</span>
+           <div class="watchDate"> 3M views 3 years ago Aug 2019</div>
+           <div class="watchSubscribers">6,42 M subscribers</div>
+           <div class="watchShowMore ml-2 mt-5">
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           </div>
+           <div class="insideWatchShowMore ml-2">
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           </div>
+         </div>
+       </div>
+        
+      </div>
+   </div>
+   <div class="videoList">
+    <div class="d-flex">
+      <div class="image1">
+       <img id="image8"  src="image2.png" alt="">
+       <video id='video8' src="video8.mp4"></video>   
+      </div>
+      <div>
+       <div class="watchTitle">
+        How you learn and remember..
+       </div>
+       <div class="watchViews ">
+         3M views 3 years ago Aug 2019
+       </div>
+       <div class="watchName">Elzero</div>
+       <div class="hide">
+         <span class=" watchLike">100K</span>
+         <div class="watchDate"> 3M views 3 years ago Aug 2019</div>
+         <div class="watchSubscribers">6,42 M subscribers</div>
+         <div class="watchShowMore ml-2 mt-5">
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+         </div>
+         <div class="insideWatchShowMore ml-2">
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+         </div>
+       </div>
+     </div>
+      
+    </div>
+ </div>
               </div>
              
-            </div>
-          </div>
+  
         </div>
       </section>
-
-    
-
-
-   
-  
-    
-
     </main>
 
 
