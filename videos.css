@@ -337,15 +337,27 @@ section.largeVideo .videoList .hide{
 
 
 
-@media (min-width:360px) and (max-width:412px){
+@media (min-width:360px) and (max-width:540px){
+
+    nav.fixed-top  .youtubeButton button{
+        display: none;
+     }
+         nav.fixed-top  .youtubeButton button.main{
+          display: none;
+         }
+         nav.fixed-top  .youtubeSearch input{
+         display: none;
+         }
+         nav.fixed-top  .youtubeSearch .mic{
+            display: none
+         }
+
     .button button{
        margin-left: -100px;
     
     }
 
     
- 
-
     section.largeVideo .mainVideo .logo{
         position: absolute;
         bottom:75%;
