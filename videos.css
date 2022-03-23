@@ -42,12 +42,13 @@ section.largeVideo .mainVideo .add1{
 }
 
 section.largeVideo .mainVideo .mainTimer{
-    /* display: none */
+    display: none
 }
 
 .smaalImg1{
     position:absolute
 }
+
 
 section.largeVideo .mainVideo  .counter1{
     position: absolute;
@@ -69,6 +70,16 @@ section.largeVideo .mainVideo  .counterTitle1{
 }
 
 section.largeVideo .mainVideo  .counterTitle2{
+    position: absolute;
+    top: 370px;
+    right: 20px;
+    color: #fff;
+    font-size:11px;
+    display:none;
+
+}
+
+section.largeVideo .mainVideo  .skip{
     position: absolute;
     top: 370px;
     right: 20px;
@@ -133,7 +144,7 @@ section.largeVideo .mainVideo .videoImg{
     left: 0;
     width: 100%;
     height: 430px;
-    background-image: url(image1.jpg);
+    /* background-image: url(../images/image1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,12 +184,12 @@ section.largeVideo .mainVideo .mainWatchNumber .mainViews{
 section.largeVideo .mainVideo .mainWatchNumber .mainIcon {
     font-size: 12px;
     opacity: .5;
-    margin-right: 30px;
+   
 
 }
 
 section.largeVideo .mainVideo .mainWatchNumber .mainIcon i{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 
@@ -251,7 +262,7 @@ section.largeVideo hr{
     background-color: red;
     color: #fff;
     box-shadow: none!important;
-    width: 100px;
+
 }
 
 .button button:hover{
@@ -271,100 +282,117 @@ section.largeVideo .videoList video{
     max-width: 150px;
     margin-bottom: 20px;
     cursor: pointer;
+
 }
+
+section.largeVideo .videoList .image1{
+    position: relative;
+    cursor: pointer;
+    margin-bottom:10px
+ 
+ }
+ 
+ section.largeVideo .videoList  .image1 img{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 200px;
+     cursor: pointer;
+    
+  }
 
 
 section.largeVideo .videoList .watchTitle{
     font-size: 13px;
-
-    
+    padding-left:55px;  
+    margin-top:20px;
+    margin-bottom:10px
 }
 
 section.largeVideo .videoList .watchViews{
     font-size: 12px;
     opacity: .5;
+    padding-left:55px;  
     font-weight: 300;
+}
+
+section.largeVideo .videoList  .watchName{
+    font-size: 12px;
+    padding-left:55px;  
+    opacity: .5;
 }
 
 section.largeVideo .videoList .hide{
     display: none;
 }
 
-section.largeVideo .videoList  .watchName{
-    font-size: 12px;
-    opacity: .5;
-}
 
 
-section.largeVideo .videoList .image1,
-section.largeVideo .videoList .image2,
-section.largeVideo .videoList .image3,
-section.largeVideo .videoList .image4,
-section.largeVideo .videoList .image5,
-section.largeVideo .videoList .image6,
-section.largeVideo .videoList .image7,
-section.largeVideo .videoList .image8{
-    position: relative;
-}
-
-section.largeVideo .videoList .image1 img, 
-section.largeVideo .videoList .image2 img,
-section.largeVideo .videoList .image3 img,
-section.largeVideo .videoList .image4 img,
-section.largeVideo .videoList .image5 img,
-section.largeVideo .videoList .image6 img,
-section.largeVideo .videoList .image7 img,
-section.largeVideo .videoList .image8 img{
-    position: absolute;
-    top: 0;
-    left: -14px;
-    height: 90px;
-    width: 50%;
-    cursor: pointer;
-    z-index: 7;
-    
-    /* box-shadow: 10px 10px 10px black ; */
-}
 
 
-@media (min-width:360px){
-    section.largeVideo .mainVideo .mainTitle{
-        margin-top:5px;
-        color:red
-    }
-    
+ 
 
-    .button .sub{
-        margin-left:-100px;
-        color:green
+
+
+
+
+@media (min-width:576px) and (max-width:767px){
+    section.largeVideo .mainVideo .logo{
+        position: absolute;
+        bottom:65%;
+        right: 50%;
+        transform: translate(50%,50%);
+        font-size: 30px;
+        color: red;
     }
 
-    section.largeVideo .videoList .watchTitle{
-        margin-left:0
+    section.largeVideo .mainVideo  .counterTitle1{
+        position: absolute;
+        top: 290px;
+        right: 20px;
+        color: #fff;
+        font-size:11px;
+        display:none;
+    }
+    
+    section.largeVideo .mainVideo  .counterTitle2{
+        position: absolute;
+        top: 290px;
+    }
+    
+    section.largeVideo .mainVideo  .counter1{
+        position: absolute;
+        top: 290px;
     }
 
-    
-section.largeVideo .mainVideo .videoImg{
-    height:200px;
-    max-width:100%
-}
+    section.largeVideo .mainVideo  .skip{
+        position: absolute;
+        top: 290px;
+        left:20px;
+    }
+
+    .comment img{
+       margin-bottom:15px
+    }
+
+    .comment form {
+        width: 91%;
+    }
+.image1{
+        margin-bottom:100px;
+        margin-top:20px
+    }
+     
+
+
+
 
     
-section.largeVideo .mainVideo .videoImg img{
-    max-width:100%
-}
+    
+    
+    
 
-section.largeVideo .videoList .image1 img, 
-section.largeVideo .videoList .image2 img,
-section.largeVideo .videoList .image3 img,
-section.largeVideo .videoList .image4 img,
-section.largeVideo .videoList .image5 img,
-section.largeVideo .videoList .image6 img,
-section.largeVideo .videoList .image7 img,
-section.largeVideo .videoList .image8 img{
-width:60%
-}
-
+  
 
 
 }
