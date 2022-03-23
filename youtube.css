@@ -1,3 +1,4 @@
+
 body{
     color: #fff;
 }
@@ -172,7 +173,7 @@ header .overlay h1{
 
 
 nav.fixed-top  .sidebar{
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 100vh;
     background-color: #000;
@@ -490,7 +491,7 @@ width: 10px;
 
   }
 
-
+/* 
   @media (min-width:360px)  and (max-width:480px){
    nav.fixed-top  .youtubeButton button{
    display: none;
@@ -594,6 +595,6 @@ width: 10px;
 
   }
 
-
+ */
 
   
