@@ -86,6 +86,7 @@ section.largeVideo .mainVideo  .skip{
     color: #fff;
     font-size:11px;
     display:none;
+    opacity:.5
 
 }
 
@@ -206,6 +207,7 @@ section.largeVideo hr{
 
 .subscribe{
     cursor: pointer;
+    
 }
 
 
@@ -288,7 +290,6 @@ section.largeVideo .videoList video{
 section.largeVideo .videoList .image1{
     position: relative;
     cursor: pointer;
-    margin-bottom:10px
  
  }
  
@@ -298,6 +299,7 @@ section.largeVideo .videoList .image1{
      left: 0;
      width: 200px;
      cursor: pointer;
+     height:100px
     
   }
 
@@ -336,7 +338,7 @@ section.largeVideo .videoList .hide{
 
 
 
-@media (min-width:576px) and (max-width:767px){
+@media (min-width:768px) and (max-width:991px){
     section.largeVideo .mainVideo .logo{
         position: absolute;
         bottom:65%;
@@ -378,13 +380,34 @@ section.largeVideo .videoList .hide{
     .comment form {
         width: 91%;
     }
-.image1{
-        margin-bottom:100px;
-        margin-top:20px
-    }
-     
+
+    section.largeVideo .videoList  .image1 {
+
+     width:100%;
+     margin-bottom:230px
+       
+     }
 
 
+     section.largeVideo .videoList  .image1 img {
+
+        width:95%;
+
+          
+        }
+
+        section.largeVideo .videoList .watchTitle{
+           padding-left:0px
+        }
+        
+        section.largeVideo .videoList .watchViews{
+            padding-left:0px
+        }
+        
+        section.largeVideo .videoList  .watchName{
+           padding-left:0px
+        }
+   
 
 
     
@@ -396,6 +419,9 @@ section.largeVideo .videoList .hide{
 
 
 }
+
+
+
 
 
 
