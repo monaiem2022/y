@@ -332,6 +332,107 @@ section.largeVideo .videoList .hide{
 
 
 
+
+
+
+
+
+@media (min-width:360px) and (max-width:412px){
+    .button button{
+       margin-left: -100px;
+    
+    }
+
+    
+ 
+
+    section.largeVideo .mainVideo .logo{
+        position: absolute;
+        bottom:75%;
+        right: 50%;
+        transform: translate(50%,50%);
+        font-size: 30px;
+        color: red;
+    }
+
+    section.largeVideo .mainVideo  .counterTitle1{
+        position: absolute;
+        top: 190px;
+        right: 20px;
+        color: #fff;
+        font-size:11px;
+        display:none;
+    }
+    
+    section.largeVideo .mainVideo  .counterTitle2{
+        position: absolute;
+        top: 190px;
+    }
+    
+    section.largeVideo .mainVideo  .counter1{
+        position: absolute;
+        top: 290px;
+    }
+
+    section.largeVideo .mainVideo  .skip{
+        position: absolute;
+        top: 190px;
+        left:20px;
+    }
+
+    .comment img{
+       margin-bottom:15px
+    }
+
+    .comment form {
+        width: 91%;
+    }
+
+    section.largeVideo .videoList  .image1 {
+
+     width:100%;
+     margin-bottom:10px
+       
+     }
+
+
+     section.largeVideo .videoList  .image1 img {
+
+        width:95%;
+
+          
+        }
+
+        section.largeVideo .videoList .watchTitle{
+           padding-left:0px
+        }
+        
+        section.largeVideo .videoList .watchViews{
+            padding-left:0px
+        }
+        
+        section.largeVideo .videoList  .watchName{
+           padding-left:0px
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
