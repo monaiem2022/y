@@ -308,7 +308,7 @@ section.largeVideo .videoList .watchTitle{
     font-size: 13px;
     padding-left:55px;  
     margin-top:20px;
-    margin-bottom:10px
+  
 }
 
 section.largeVideo .videoList .watchViews{
@@ -338,7 +338,7 @@ section.largeVideo .videoList .hide{
 
 
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:576px) and (max-width:767px){
     section.largeVideo .mainVideo .logo{
         position: absolute;
         bottom:65%;
@@ -384,7 +384,7 @@ section.largeVideo .videoList .hide{
     section.largeVideo .videoList  .image1 {
 
      width:100%;
-     margin-bottom:230px
+     margin-bottom:10px
        
      }
 
@@ -407,16 +407,6 @@ section.largeVideo .videoList .hide{
         section.largeVideo .videoList  .watchName{
            padding-left:0px
         }
-   
-
-
-    
-    
-    
-    
-
-  
-
 
 }
 
