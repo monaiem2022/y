@@ -492,7 +492,7 @@ width: 10px;
   }
 
 
-  @media (min-width:360px)  and (max-width:480px){
+  @media (min-width:360px)  and (max-width:574px){
    nav.fixed-top  .youtubeButton button{
    display: none;
 }

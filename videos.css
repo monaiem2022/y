@@ -337,7 +337,7 @@ section.largeVideo .videoList .hide{
 
 
 
-@media (min-width:360px) and (max-width:540px){
+@media (min-width:360px) and (max-width:574px){
 
     nav.fixed-top  .youtubeButton button{
         display: none;
