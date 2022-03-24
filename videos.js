@@ -14,15 +14,13 @@ let video7 = document.getElementById('video7');
 let video8 = document.getElementById('video8');
 
 let counter1html = document.getElementById('counter1');
-let add1 = document.getElementById('add1');
-  let add2 = document.getElementById('add2');
-  let add3 = document.getElementById('add3');
- let counterTitle1 = document.getElementById('counterTitle1');
-  let counterTitle2 = document.getElementById('counterTitle2');
-  let skip = document.getElementById('skip');
+
+let counterTitle1 = document.getElementById('counterTitle1');
+let counterTitle2 = document.getElementById('counterTitle2');
+let skip = document.getElementById('skip');
 
 
-  let timerhtml = document.getElementById('mainTimer');
+let timerhtml = document.getElementById('mainTimer');
 
 
 videoImg.onclick = function () {
@@ -121,570 +119,351 @@ if(mainTimer == 80){
 setInterval(counter1, 1000);
 
 
- 
 
 
 
 
-
-
-
-
-let image1 = document.getElementById('image1');
-    
 image1.onclick = function () {
-  mainVideo.src = video1.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
-  
- }
- setTimeout(loading,2000);
- function again (){
-   if(video2 || video3 || video4 || video5 || video6 || video7 || video8.play()){
-    mainVideoAnimate.style.display = 'block';
-    video2.pause();
-    video3.pause();
-    video4.pause();
-    video5.pause();
-    viode6.pause();
-    video7.pause();
-    video8.pause();
-    video1.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-
-
-let image2 = document.getElementById('image2');
-    
-image2.onclick = function () {
-  mainVideo.src = video2.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
- }
- setTimeout(loading,2000);
- function again (){
-   if(video1 || video3 || video4 || video5 || video6 || video7 || video8.play()){
-    mainVideoAnimate.style.display = 'block';
-    video1.pause();
-    video3.pause();
-    video4.pause();
-    video5.pause();
-    viode6.pause();
-    video7.pause();
-    video8.pause();
-    video2.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-
-
-let image3 = document.getElementById('image3');
-    
-image3.onclick = function () {
-  mainVideo.src = video3.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
- }
- setTimeout(loading,2000);
- function again (){
-   if(video1 || video2 || video4 || video5 || video6 || video7 || video8.play()){
-    mainVideoAnimate.style.display = 'block';
-    video1.pause();
-    video2.pause();
-    video4.pause();
-    video5.pause();
-    viode6.pause();
-    video7.pause();
-    video8.pause();
-    video3.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-
-  
-let image4 = document.getElementById('image4');
-    
-image4.onclick = function () {
-  mainVideo.src = video4.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
- }
- setTimeout(loading,2000);
- function again (){
-   if(video1 || video2 || video3 || video5 || video6 || video7 || video8.play()){
-    mainVideoAnimate.style.display = 'block';
-    video1.pause();
-    video2.pause();
-    video3.pause();
-    video5.pause();
-    viode6.pause();
-    video7.pause();
-    video8.pause();
-    video4.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-  
-
-let image5= document.getElementById('image5');
-    
-image5.onclick = function () {
-  mainVideo.src = video5.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
- }
- setTimeout(loading,2000);
- function again (){
-   if(video1 || video2 || video3 || video4 || video6 || video7 || video8.play()){
-    mainVideoAnimate.style.display = 'block';
-    video1.pause();
-    video2.pause();
-    video3.pause();
-    video4.pause();
-    viode6.pause();
-    video7.pause();
-    video8.pause();
-    video5.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-
-
-
-let image6 = document.getElementById('image6');
-    
-image6.onclick = function () {
-  mainVideo.src = video6.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
- }
- setTimeout(loading,2000);
- function again (){
-   if(video1 || video2 || video3 || video4 || video5 || video7 || video8.play()){
-    mainVideoAnimate.style.display = 'block';
-    video1.pause();
-    video2.pause();
-    video3.pause();
-    video4.pause();
-    viode5.pause();
-    video7.pause();
-    video8.pause();
-    video6.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-
-
-let image7 = document.getElementById('image7');
-    
-image7.onclick = function () {
-  mainVideo.src = video7.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
- }
- setTimeout(loading,2000);
- function again (){
-   if(video1 || video2 || video3 || video4 || video5 || video6 || video8.play()){
-    mainVideoAnimate.style.display = 'block';
-    video1.pause();
-    video2.pause();
-    video3.pause();
-    video4.pause();
-    viode5.pause();
-    video6.pause();
-    video8.pause();
-    video7.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-
-
-let image8 = document.getElementById('image8');
-    
-image8.onclick = function () {
-  mainVideo.src = video8.src; 
-  mainVideoAnimate.style.display = 'block';
-
- function loading () {
-   mainVideoAnimate.style.display = 'none';
-   content.style.display = 'none';
-   videoImg.style.display = 'none';
-   mainVideo.play();
- }
- setTimeout(loading,2000);
- function again (){
-   if(video1 || video2 || video3 || video4 || video5 || video6 || video7.play()){
-    mainVideoAnimate.style.display = 'block';
-    video1.pause();
-    video2.pause();
-    video3.pause();
-    video4.pause();
-    viode5.pause();
-    video6.pause();
-    video7.pause();
-    video8.play();
-   }
-   setTimeout(again,2000)
- }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   image2.onclick = function () {
-//      timerhtml.innerHTML = 200;
-//     randomAd.style.display = 'none';
-//     randomAd.pause();
-//     counter1html.style.display = 'none';
-//     counterTitle1.style.display ='none';
-//     counterTitle2.style.display = 'none'
-    
-//     let image2 = document.getElementById('image2');
-//     videoImg.style.backgroundImage = "url('images/image1-1.jpg')";
-//     insideMainShowMore.style.display = 'none';
-//     function loading () {
-//       mainVideoAnimate.style.display = 'none';
-//       videoImg.style.display = 'none';
-//       content.style.display = 'none';
-//       mainVideo.src = video2.src;
-//       mainVideo.controls = true;
-//       mainVideo.play();
-
-//       if(video1  || video3 ||video4 || video5 || video6 || video7|| video8.play()){
-//         mainVideoAnimate.style.display = 'block';
-//         videoImg.style.display = 'block'
-//          function again () {
-//           mainVideoAnimate.style.display = 'none';
-//           videoImg.style.display = 'none';
-//           video1.pause();
-//           video3.pause();
-//           video4.pause();
-//           video5.pause();
-//           video6.pause();
-//           video7.pause();
-//           video8.pause();
-        
-//          }
-//          setTimeout(again,1000)
-//        }
-//     }
-//     setTimeout(loading,1000)
-//  let timeCounter1 = setInterval(counter1,3000);
-
+ timerhtml.innerHTML = 200;
+ randomAd.style.display = 'none';
+ randomAd.pause();
+ counter1html.style.display = 'none';
+ counterTitle1.style.display ='none';
+ counterTitle2.style.display = 'none'
  
-      
+ let image1 = document.getElementById('image1');
+ videoImg.style.backgroundImage = "url('images/image1.jpg')";
+ insideMainShowMore.style.display = 'none';
+ function loading () {
+   mainVideoAnimate.style.display = 'none';
+   videoImg.style.display = 'none';
+   content.style.display = 'none';
+   mainVideo.src = video2.src;
+   mainVideo.controls = true;
+   mainVideo.play();
 
-//   }
+   if(video1  || video3 ||video4 || video5 || video6 || video7|| video8.play()){
+     mainVideoAnimate.style.display = 'block';
+     videoImg.style.display = 'block'
+      function again () {
+       mainVideoAnimate.style.display = 'none';
+       videoImg.style.display = 'none';
+       video1.pause();
+       video3.pause();
+       video4.pause();
+       video5.pause();
+       video6.pause();
+       video7.pause();
+       video8.pause();
+     
+      }
+      setTimeout(again,1000)
+    }
+ }
+ setTimeout(loading,1000)
+let timeCounter1 = setInterval(counter1,3000);      
 
-
-//   image3.onclick = function () {
-//      timerhtml.innerHTML = 200;
-//     randomAd.style.display = 'none';
-//     randomAd.pause();
-//     counter1html.style.display = 'none';
-//     counterTitle1.style.display ='none';
-//     counterTitle2.style.display = 'none'
-
-//     let image3 = document.getElementById('image3');
-//     videoImg.style.backgroundImage = "url('images/image1-2.jpg')";
-//     mainVideoAnimate.style.display = 'block';
-//     insideMainShowMore.style.display = 'none'
-//     function loading () {
-//       mainVideoAnimate.style.display = 'none';
-//       videoImg.style.display = 'none';
-//       content.style.display = 'none';
-//       mainVideo.src = video3.src;
-//       mainVideo.controls = true;
-//       mainVideo.play();
-
-//       if(video1 || video4 || video5 || video6 || video7 || video8 || video2.play()){
-//         mainVideoAnimate.style.display = 'block';
-//         videoImg.style.display = 'block'
-//          function again () {
-//           mainVideoAnimate.style.display = 'none';
-//           videoImg.style.display = 'none';
-//           video1.pause();
-//           video2.pause();
-//           video4.pause();
-//           video5.pause();
-//           video6.pause();
-//           video7.pause();
-//           video8.pause();
-//          }
-//          setTimeout(again,1000)
-//        }
-//     }
-//     setTimeout(loading,2000)
-//   }
+}
 
 
-//   image4.onclick = function () {
-//       timerhtml.innerHTML = 200;
-//       randomAd.style.display = 'none';
-//       randomAd.pause();
-//       counter1html.style.display = 'none';
-//       counterTitle1.style.display ='none';
-//       counterTitle2.style.display = 'none'
-
-//     let image4 = document.getElementById('image4');
-//     videoImg.style.backgroundImage = "url('images/image1-3.jpg')";
-//     mainVideoAnimate.style.display = 'block';
-//     insideMainShowMore.style.display = 'none'
-//     function loading () {
-//       mainVideoAnimate.style.display = 'none';
-//       videoImg.style.display = 'none';
-//       content.style.display = 'none';
-//       mainVideo.src = video4.src;
-//       mainVideo.controls = true;
-//       mainVideo.play();
-
-//       if(video1 || video3  || video5 || video6 || video7 || video8 || video2.play()){
-//         mainVideoAnimate.style.display = 'block';
-//         videoImg.style.display = 'block'
-//          function again () {
-//           mainVideoAnimate.style.display = 'none';
-//           videoImg.style.display = 'none';
-//           video1.pause();
-//           video2.pause();
-//           video3.pause();
-//           video5.pause();
-//           video6.pause();
-//           video7.pause();
-//           video8.pause();
-//          }
-//          setTimeout(again,1000)
-//        }
-//     }
-//     setTimeout(loading,2000)
-//   }
 
 
-//   image5.onclick = function () {
-//       timerhtml.innerHTML = 200;
-//       randomAd.style.display = 'none';
-//       randomAd.pause();
-//       counter1html.style.display = 'none';
-//       counterTitle1.style.display ='none';
-//       counterTitle2.style.display = 'none'
-
-//     let image5 = document.getElementById('image5');
-//     videoImg.style.backgroundImage = "url('images/image1-4.jpg')";
-//     mainVideoAnimate.style.display = 'block';
-//     insideMainShowMore.style.display = 'none'
-//     function loading () {
-//       mainVideoAnimate.style.display = 'none';
-//       videoImg.style.display = 'none';
-//       content.style.display = 'none';
-//       mainVideo.src = video5.src;
-//       mainVideo.controls = true;
-//       mainVideo.play();
-
-//       if(video1 || video3 || video4 || video6 || video7 || video8 || video2.play()){
-//         mainVideoAnimate.style.display = 'block';
-//         videoImg.style.display = 'block'
-//          function again () {
-//           mainVideoAnimate.style.display = 'none';
-//           videoImg.style.display = 'none';
-//           video1.pause();
-//           video2.pause();
-//           video3.pause();
-//           video4.pause();
-//           video6.pause();
-//           video7.pause();
-//           video8.pause();
-//          }
-//          setTimeout(again,500)
-//        }
-//     }
-//     setTimeout(loading,500)
-
-//   }
 
 
-//   image6.onclick = function () {
-//       timerhtml.innerHTML = 200;
-//       randomAd.style.display = 'none';
-//       randomAd.pause();
-//       counter1html.style.display = 'none';
-//       counterTitle1.style.display ='none';
-//       counterTitle2.style.display = 'none'
+  image2.onclick = function () {
+     timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none'
+    
+    let image2 = document.getElementById('image2');
+    videoImg.style.backgroundImage = "url('images/image1-3.jpg')";
+    insideMainShowMore.style.display = 'none';
+    function loading () {
+      mainVideoAnimate.style.display = 'none';
+      videoImg.style.display = 'none';
+      content.style.display = 'none';
+      mainVideo.src = video2.src;
+      mainVideo.controls = true;
+      mainVideo.play();
 
-//     let image6 = document.getElementById('image6');
-//     videoImg.style.backgroundImage = "url('images/image1-5.jpg')";
-//     mainVideoAnimate.style.display = 'block';
-//     insideMainShowMore.style.display = 'none'
-//     function loading () {
-//       mainVideoAnimate.style.display = 'none';
-//       videoImg.style.display = 'none';
-//       content.style.display = 'none';
-//       mainVideo.src = video6.src;
-//       mainVideo.controls = true;
-//       mainVideo.play();
+      if(video1  || video3 ||video4 || video5 || video6 || video7|| video8.play()){
+        mainVideoAnimate.style.display = 'block';
+        videoImg.style.display = 'block'
+         function again () {
+          mainVideoAnimate.style.display = 'none';
+          videoImg.style.display = 'none';
+          video1.pause();
+          video3.pause();
+          video4.pause();
+          video5.pause();
+          video6.pause();
+          video7.pause();
+          video8.pause();
+        
+         }
+         setTimeout(again,1000)
+       }
+    }
+    setTimeout(loading,1000)
+ let timeCounter1 = setInterval(counter1,3000);      
 
-//       if(video1 || video3 || video4 || video5 || video6 || video7 || video8 || video2.play()){
-//         mainVideoAnimate.style.display = 'block';
-//         videoImg.style.display = 'block'
-//          function again () {
-//           mainVideoAnimate.style.display = 'none';
-//           videoImg.style.display = 'none';
-//           video1.pause();
-//           video2.pause();
-//           video3.pause();
-//           video4.pause();
-//           video5.pause();
-//           video6.pause();
-//           video7.pause();
-//           video8.pause();
-//          }
-//          setTimeout(again,1000)
-//        }
-//     }
-//     setTimeout(loading,2000)
-//   }
+  }
+
+
+  image3.onclick = function () {
+     timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none'
+
+    let image3 = document.getElementById('image3');
+    videoImg.style.backgroundImage = "url('images/image1-2.jpg')";
+    mainVideoAnimate.style.display = 'block';
+    insideMainShowMore.style.display = 'none'
+    function loading () {
+      mainVideoAnimate.style.display = 'none';
+      videoImg.style.display = 'none';
+      content.style.display = 'none';
+      mainVideo.src = video3.src;
+      mainVideo.controls = true;
+      mainVideo.play();
+
+      if(video1 || video4 || video5 || video6 || video7 || video8 || video2.play()){
+        mainVideoAnimate.style.display = 'block';
+        videoImg.style.display = 'block'
+         function again () {
+          mainVideoAnimate.style.display = 'none';
+          videoImg.style.display = 'none';
+          video1.pause();
+          video2.pause();
+          video4.pause();
+          video5.pause();
+          video6.pause();
+          video7.pause();
+          video8.pause();
+         }
+         setTimeout(again,1000)
+       }
+    }
+    setTimeout(loading,2000)
+  }
+
+
+  image4.onclick = function () {
+      timerhtml.innerHTML = 200;
+      randomAd.style.display = 'none';
+      randomAd.pause();
+      counter1html.style.display = 'none';
+      counterTitle1.style.display ='none';
+      counterTitle2.style.display = 'none'
+
+    let image4 = document.getElementById('image4');
+    videoImg.style.backgroundImage = "url('images/image1-4.jpg')";
+    mainVideoAnimate.style.display = 'block';
+    insideMainShowMore.style.display = 'none'
+    function loading () {
+      mainVideoAnimate.style.display = 'none';
+      videoImg.style.display = 'none';
+      content.style.display = 'none';
+      mainVideo.src = video4.src;
+      mainVideo.controls = true;
+      mainVideo.play();
+
+      if(video1 || video3  || video5 || video6 || video7 || video8 || video2.play()){
+        mainVideoAnimate.style.display = 'block';
+        videoImg.style.display = 'block'
+         function again () {
+          mainVideoAnimate.style.display = 'none';
+          videoImg.style.display = 'none';
+          video1.pause();
+          video2.pause();
+          video3.pause();
+          video5.pause();
+          video6.pause();
+          video7.pause();
+          video8.pause();
+         }
+         setTimeout(again,1000)
+       }
+    }
+    setTimeout(loading,2000)
+  }
+
+
+  image5.onclick = function () {
+      timerhtml.innerHTML = 200;
+      randomAd.style.display = 'none';
+      randomAd.pause();
+      counter1html.style.display = 'none';
+      counterTitle1.style.display ='none';
+      counterTitle2.style.display = 'none'
+
+    let image5 = document.getElementById('image5');
+    videoImg.style.backgroundImage = "url('images/image1-5.jpg')";
+    mainVideoAnimate.style.display = 'block';
+    insideMainShowMore.style.display = 'none'
+    function loading () {
+      mainVideoAnimate.style.display = 'none';
+      videoImg.style.display = 'none';
+      content.style.display = 'none';
+      mainVideo.src = video5.src;
+      mainVideo.controls = true;
+      mainVideo.play();
+
+      if(video1 || video3 || video4 || video6 || video7 || video8 || video2.play()){
+        mainVideoAnimate.style.display = 'block';
+        videoImg.style.display = 'block'
+         function again () {
+          mainVideoAnimate.style.display = 'none';
+          videoImg.style.display = 'none';
+          video1.pause();
+          video2.pause();
+          video3.pause();
+          video4.pause();
+          video6.pause();
+          video7.pause();
+          video8.pause();
+         }
+         setTimeout(again,500)
+       }
+    }
+    setTimeout(loading,500)
+
+  }
+
+
+  image6.onclick = function () {
+      timerhtml.innerHTML = 200;
+      randomAd.style.display = 'none';
+      randomAd.pause();
+      counter1html.style.display = 'none';
+      counterTitle1.style.display ='none';
+      counterTitle2.style.display = 'none'
+
+    let image6 = document.getElementById('image6');
+    videoImg.style.backgroundImage = "url('images/image1-6.jpg')";
+    mainVideoAnimate.style.display = 'block';
+    insideMainShowMore.style.display = 'none'
+    function loading () {
+      mainVideoAnimate.style.display = 'none';
+      videoImg.style.display = 'none';
+      content.style.display = 'none';
+      mainVideo.src = video6.src;
+      mainVideo.controls = true;
+      mainVideo.play();
+
+      if(video1 || video3 || video4 || video5 || video6 || video7 || video8 || video2.play()){
+        mainVideoAnimate.style.display = 'block';
+        videoImg.style.display = 'block'
+         function again () {
+          mainVideoAnimate.style.display = 'none';
+          videoImg.style.display = 'none';
+          video1.pause();
+          video2.pause();
+          video3.pause();
+          video4.pause();
+          video5.pause();
+          video6.pause();
+          video7.pause();
+          video8.pause();
+         }
+         setTimeout(again,1000)
+       }
+    }
+    setTimeout(loading,2000)
+  }
 
   
 
   
-//   image7.onclick = function () {
-//       timerhtml.innerHTML = 200;
-//        randomAd.style.display = 'none';
-//       randomAd.pause();
-//       counter1html.style.display = 'none';
-//       counterTitle1.style.display ='none';
-//       counterTitle2.style.display = 'none'
+  image7.onclick = function () {
+      timerhtml.innerHTML = 200;
+       randomAd.style.display = 'none';
+      randomAd.pause();
+      counter1html.style.display = 'none';
+      counterTitle1.style.display ='none';
+      counterTitle2.style.display = 'none'
 
-//     let image7 = document.getElementById('image1');
-//     videoImg.style.backgroundImage = "url('images/image1-6.jpg')";
-//     mainVideoAnimate.style.display = 'block';
-//     insideMainShowMore.style.display = 'none'
-//     function loading () {
-//       mainVideoAnimate.style.display = 'none';
-//       videoImg.style.display = 'none';
-//       content.style.display = 'none';
-//       mainVideo.src = video7.src;
-//       mainVideo.controls = true;
-//       mainVideo.play();
+    let image7 = document.getElementById('image1');
+    videoImg.style.backgroundImage = "url('images/image1-7.jpg')";
+    mainVideoAnimate.style.display = 'block';
+    insideMainShowMore.style.display = 'none'
+    function loading () {
+      mainVideoAnimate.style.display = 'none';
+      videoImg.style.display = 'none';
+      content.style.display = 'none';
+      mainVideo.src = video7.src;
+      mainVideo.controls = true;
+      mainVideo.play();
      
 
-//       if(video1 || video3 || video4 || video5 || video6 || video8 || video2.play()){
-//         mainVideoAnimate.style.display = 'block';
-//         videoImg.style.display = 'block'
-//          function again () {
-//           mainVideoAnimate.style.display = 'none';
-//           videoImg.style.display = 'none';
-//           video1.pause();
-//           video2.pause();
-//           video3.pause();
-//           video4.pause();
-//           video5.pause();
-//           video6.pause();
-//           video8.pause();
+      if(video1 || video3 || video4 || video5 || video6 || video8 || video2.play()){
+        mainVideoAnimate.style.display = 'block';
+        videoImg.style.display = 'block'
+         function again () {
+          mainVideoAnimate.style.display = 'none';
+          videoImg.style.display = 'none';
+          video1.pause();
+          video2.pause();
+          video3.pause();
+          video4.pause();
+          video5.pause();
+          video6.pause();
+          video8.pause();
           
-//          }
-//          setTimeout(again,1000)
-//        }
-//     }
-//     setTimeout(loading,0)
-//   }
+         }
+         setTimeout(again,1000)
+       }
+    }
+    setTimeout(loading,0)
+  }
 
 
-//   image8.onclick = function () {
-//       timerhtml.innerHTML = 200;
-//       randomAd.style.display = 'none';
-//       randomAd.pause();
-//       counter1html.style.display = 'none';
-//       counterTitle1.style.display ='none';
-//       counterTitle2.style.display = 'none'
+  image8.onclick = function () {
+      timerhtml.innerHTML = 200;
+      randomAd.style.display = 'none';
+      randomAd.pause();
+      counter1html.style.display = 'none';
+      counterTitle1.style.display ='none';
+      counterTitle2.style.display = 'none'
 
-//     let image8 = document.getElementById('image8');
-//     videoImg.style.backgroundImage = "url('images/image1-7.jpg')";
-//     mainVideoAnimate.style.display = 'block';
-//     insideMainShowMore.style.display = 'none'
-//     function loading () {
-//       mainVideoAnimate.style.display = 'none';
-//       videoImg.style.display = 'none';
-//       content.style.display = 'none';
-//       mainVideo.src = video8.src;
-//       mainVideo.controls = true;
-//       mainVideo.play();
+    let image8 = document.getElementById('image8');
+    videoImg.style.backgroundImage = "url('images/image2.png')";
+    mainVideoAnimate.style.display = 'block';
+    insideMainShowMore.style.display = 'none'
+    function loading () {
+      mainVideoAnimate.style.display = 'none';
+      videoImg.style.display = 'none';
+      content.style.display = 'none';
+      mainVideo.src = video8.src;
+      mainVideo.controls = true;
+      mainVideo.play();
 
-//       if(video1 || video3 || video4 || video5 || video6 || video7 || video2.play()){
-//         mainVideoAnimate.style.display = 'block';
-//         videoImg.style.display = 'block'
-//          function again () {
-//           mainVideoAnimate.style.display = 'none';
-//           videoImg.style.display = 'none';
-//           video1.pause();
-//           video2.pause();
-//           video3.pause();
-//           video4.pause();
-//           video5.pause();
-//           video6.pause();
-//           video7.pause();
-//          }
-//          setTimeout(again,1000)
-//        }
-//     }
-//     setTimeout(loading,0)
-//   }
+      if(video1 || video3 || video4 || video5 || video6 || video7 || video2.play()){
+        mainVideoAnimate.style.display = 'block';
+        videoImg.style.display = 'block'
+         function again () {
+          mainVideoAnimate.style.display = 'none';
+          videoImg.style.display = 'none';
+          video1.pause();
+          video2.pause();
+          video3.pause();
+          video4.pause();
+          video5.pause();
+          video6.pause();
+          video7.pause();
+         }
+         setTimeout(again,1000)
+       }
+    }
+    setTimeout(loading,0)
+
+  }
 
 
 
@@ -777,6 +556,10 @@ $('.videoList').on('click',function () {
   $('.commentImg').attr('src',$(this).find('img').attr('src'))
  
 });
+
+
+
+
 
 
 
