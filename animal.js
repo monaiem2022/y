@@ -9,6 +9,12 @@ videoImg.onclick = function () {
   
 }
 
+mainVideo.onplay = function () {
+  videoImg.style.display = 'none';
+  content.style.display = 'none';
+}
+
+
 
     
 image1.onclick = function () {
