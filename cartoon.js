@@ -18,6 +18,12 @@ mainVideo.onplay = function () {
 
     
 image1.onclick = function () {
+  timerhtml.innerHTML = 200;
+  randomAd.style.display = 'none';
+  randomAd.pause();
+  counter1html.style.display = 'none';
+  counterTitle1.style.display ='none';
+  counterTitle2.style.display = 'none';
   videoImg.style.backgroundImage = "url('images/cartoon1.jpg')";
   insideMainShowMore.style.display = 'none';
   function loading () {
@@ -50,10 +56,14 @@ image1.onclick = function () {
 
 }
 
-mainVideo.onpause = function () {
-  videoImg.style.display = 'block'
-}
+
   image2.onclick = function () {
+    timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none';
     videoImg.style.backgroundImage = "url('images/cartoon2.jpg')";
     insideMainShowMore.style.display = 'none';
     function loading () {
@@ -85,9 +95,12 @@ mainVideo.onpause = function () {
 
 
   image3.onclick = function () {
-    let image3 = document.getElementById('image3');
-
-   
+    timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none'; 
     videoImg.style.backgroundImage = "url('images/cartoon3.jpg')";
     mainVideoAnimate.style.display = 'block';
     insideMainShowMore.style.display = 'none'
@@ -121,6 +134,12 @@ mainVideo.onpause = function () {
 
 
   image4.onclick = function () {
+    timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none';
     videoImg.style.backgroundImage = "url('images/cartoon4.jpg')";
     mainVideoAnimate.style.display = 'block';
     insideMainShowMore.style.display = 'none'
@@ -154,6 +173,13 @@ mainVideo.onpause = function () {
 
 
   image5.onclick = function () {
+
+    timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none';
     videoImg.style.backgroundImage = "url('images/cartoon5.jpg')";
     mainVideoAnimate.style.display = 'block';
     insideMainShowMore.style.display = 'none'
@@ -188,6 +214,12 @@ mainVideo.onpause = function () {
 
 
   image6.onclick = function () {
+    timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none';
     videoImg.style.backgroundImage = "url('images/cartoon6.jpg')";
     mainVideoAnimate.style.display = 'block';
     insideMainShowMore.style.display = 'none'
@@ -224,6 +256,12 @@ mainVideo.onpause = function () {
 
   
   image7.onclick = function () {
+    timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none';
     videoImg.style.backgroundImage = "url('images/cartoon7.jpg')";
     mainVideoAnimate.style.display = 'block';
     insideMainShowMore.style.display = 'none'
@@ -259,6 +297,12 @@ mainVideo.onpause = function () {
 
 
   image8.onclick = function () {
+    timerhtml.innerHTML = 200;
+    randomAd.style.display = 'none';
+    randomAd.pause();
+    counter1html.style.display = 'none';
+    counterTitle1.style.display ='none';
+    counterTitle2.style.display = 'none';
     videoImg.style.backgroundImage = "url('images/cartoon8.jpg')";
     mainVideoAnimate.style.display = 'block';
     insideMainShowMore.style.display = 'none'
