@@ -7,6 +7,12 @@ videoImg.onclick = function () {
   mainVideo.play();
   content.style.display = 'none';
 }
+
+mainVideo.onplay = function () {
+  videoImg.style.display = 'none';
+  content.style.display = 'none';
+}
+
   
 
 image1.onclick = function () {

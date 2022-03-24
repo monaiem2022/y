@@ -15,7 +15,6 @@ mainVideo.onplay = function () {
 }
 
 
-
     
 image1.onclick = function () {
   timerhtml.innerHTML = 200;
