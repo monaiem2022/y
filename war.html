@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="videos.css">
+    <link rel="stylesheet" href="aflam.css">
+    <link rel="stylesheet" href="sport.css">
+    <link rel="stylesheet" href="hsoub.css">
+    <link rel="stylesheet" href="fight.css">
+    <link rel="stylesheet" href="funny.css">
+    <link rel="stylesheet" href="quraan.css">
+    <link rel="stylesheet" href="song.css">
+    <link rel="stylesheet" href="war.css">
+    <title>war</title>
+  </head>
+  <body id="body1">
+
+
+
+
+
+
+   <nav class="fixed-top">
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col">
+          <div class="youtubeIcon">
+        
+            <div class="pt-2"><i class="fas fa-bars iconMenu"></i></div>
+           <div><img src="youtube.png" alt=""></div>
+          </div>
+         
+         </div>
+         <div class="col-6">
+           <div  class="youtubeSearch d-flex pt-2">
+            <input  class="form-control" type="text">
+            <div class="mic ml-2">
+              <i class="fas fa-microphone pt-2"></i>
+            </div>
+           </div>
+         
+         </div>
+         <div class="col text-right">
+           <div class="youtubeButton pt-2">
+            <button class="btn btn" id="signin">sign in</button>
+            <div class="signin2" id="signin2"></div>
+            <div class="info" id="info">
+              <div class="animate" id="animate">
+                <div class="spinner-border text-primary" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+           
+            <div class="container">
+              <div class="infoHeader">
+                <span id="signinTitle">sign in</span>
+                <span class="close" id="close">x</span>
+              </div>
+              <div class="infoContnet text-left mt-4">
+               <form>
+                <input id="email" class="form-control" type="email" placeholder="Your Email" required>
+                <div class="emailValidate mb-3 mt-2" id="emailValidate">you have to type a correct email</div>
+                <input id="password" class="form-control mt-3" type="password" placeholder="Your Password" required>
+                <div class="message pt-2" id="message">you have to enter more than 8 numbers</div>
+                <button class="btn btn mt-3" id="confirm" type="submit">confirm</button>
+                <button class="btn btn mt-3 ml-3" id="cancel">cancel</button>
+               </form>
+              </div>
+              <div class="infoFooter"></div>
+            </div>
+            </div>
+           </div>
+           
+         </div>
+           </div>
+           
+         </div>
+       </div>
+    
+      <div class="sidebar pt-1">
+     
+         <div class="sidebar-youtube d-flex">
+          <div><i class="fas fa-bars iconMenu2"></i></div>
+          <div><img src="youtube.png" alt=""></div>
+         </div>
+          <div class="mb-4 mt-4 home">
+            <i class="fa fa-home"></i>
+            <span class="ml-4">Home</span>
+          </div>
+         <div class="mb-4 mt-5 clock">
+           <i class="fa fa-clock"></i>
+           <span class="ml-4">Explore</span>
+         </div>
+         <div class="mb-4 mt-5 youtube">
+          <i class="fab fa-youtube"></i>
+          <span class="ml-4">Shorts</span>
+         </div>  
+         <div class="mb-4 mt-5 user">
+          <i class="fa fa-user"></i>
+          <span class="ml-4">Subscription</span>
+         </div>
+         <hr>
+         <div class="like">
+           <div>sign in to like videos comment and subscribe</div>
+           <button class="btn btn" id="signinSidebar">sign in</button>
+         </div>  
+         <hr> 
+         <div class="best">
+           <div class="best-title">BEST OF YOUTUBE</div>
+           <div class="music">
+            <i class="fa fa-music"></i>
+            <span class="ml-4">Music</span>
+           </div>
+           <div class="sports">
+            <i class="fa fa-trophy"></i>
+            <span class="ml-4">Sports</span>
+           </div>
+           <div class="gaming">
+            <i class="fa fa-gamepad"></i>
+            <span class="ml-4">Gaming</span>
+           </div>
+           <div class="news">
+            <i class="fa fa-book"></i>
+            <span class="ml-4">News</span>
+           </div>
+           <div class="live">
+            <i class="fa fa-wifi"></i>
+            <span class="ml-4">Live</span>
+           </div>
+           <hr>
+           <div class="copyrights">
+             <div class="mb-3">
+               About press copyright contact us creators advertise developer
+             </div>
+             <div class="mb-3">
+               Terms privacy policy & how youtube works test new features
+             </div>
+             <div class="mb-3">
+               2022 Google LLC
+             </div>
+           </div>
+           </div>
+      </div>
+      </div>
+        
+       </div>
+    
+   
+   </nav>
+
+    <header>
+     
+
+    </header>
+
+
+    <main>
+      <section class="largeVideo">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8 col-sm-12">
+             
+              <div class="mainVideo">
+               
+                <video id="mainVideo" src="video1.mp4" controls autoplay ></video>
+                <span id="counterTitle1" class="counterTitle1">يظهر اعلان بعد</span>
+                <div class="counter1" id="counter1">10</div>
+                <span id="counterTitle2" class="counterTitle2">ينتهى الاعلان بعد</span>
+                <div class="mainTimer" id="mainTimer">200</div>
+               
+              
+                <video class="add1 one" src="ad1.mp4" data-duration="33"></video>
+                <video class="add1 one" src="ad2.mp4" data-duration="64"></video>
+                <video class="add1 one" src="ad3.mp4" data-duration="85"></video>
+                <video class="add1 one" src="ad4.mp4" data-duration="41"></video>
+                 <button class="skip" id="skip" class="btn btn-dark" >SKIP ADD</button>
+                 <div id="create" class="create">How to create a div in javascript...</div>
+                
+                <div id="content" class="content">محتوى الفيديو لا يعبر عن الواقع..لعدم توفر الفيديوهات  ..أحمد منعم..                        
+                </div>
+                <div class="mainVideoAnimate" id="mainVideoAnimate">
+                  <div class="spinner-border text-danger" role="status">
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                </div>
+               
+             
+               
+              
+                <div id="videoImg" class="videoImg">
+                 
+                 
+                  <i class="fab fa-youtube logo" id="logo"></i> 
+                </div>
+            
+               <div id="mainTitle" class="mainTitle">
+                enjoy listining
+               </div>
+               <div class="mainWatchNumber mt-2 mb-1">
+                <div class="row">
+                  <div class="col-4 mainDate">3M views</div>
+                  <div class="col-8 text-right">
+                    <div class="mainIcon">
+                      <i class="fal fa-thumbs-up main_icon1"></i>
+                      <span class=" main_like">100K</span>
+                      <i class="fal fa-thumbs-down main_icon2"></i>
+                      <span class=" main_deslike">Deslike</span>
+                      <i class="fal fa-share"></i>
+                      <i class="fal fa-layer-plus"></i>
+                      <span class="">SAVE</span>
+                      <i class="far fa-ellipsis-h"></i>
+                      </div>
+                  </div>
+                </div>
+               </div>
+              </div>
+              <hr>
+
+              <div class="subscribe">
+                <div class="row">
+                  <div class="col-9">
+                    <div class="channelImage d-flex">
+                     <div class="hola mt-1"> <img class="mainImg" src="war1.jpg"></div>
+                      <div>
+                        <div class="mainName ml-2">fight1</div>
+                        <div class="mainSubscribers ml-2">20M subscribers</div>
+                        <div class="mainShowMore ml-2 mt-5">
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                        </div>
+                        <div id="insideMainShowMore" class="insideMainShowMore ml-2">
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                          real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                        </div>
+                        <div id="show" class="show ml-2 mt-1">Show more...</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-3 text-right">
+                    <div class="button">
+                      <button id="sub" class="btn btn">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="comment d-flex">
+                <img class="commentImg" src="war1.jpg" alt="">
+               <form class="control">
+                <input type="text" class="form-control inputComment" placeholder="Add A Dynamic Comment">
+                <div class="commentDiv">
+                </div>
+               </form>
+               
+              </div>
+
+              
+        
+          
+            </div>  <!--end of col-lg-8-->
+
+         
+            <div class="col-lg-4 col-sm-12">
+                <div class="videoList">
+                 <div class="d-flex">
+                   <div class="image1">
+                    <img id="image1"  src="war1.jpg" alt="">
+                    <video id='video1' src="video1.mp4"></video>   
+                   </div>
+                   <div>
+                    <div class="watchTitle">
+                      enjoy watching
+                    </div>
+                    <div class="watchViews ">
+                      300M views 
+                    </div>
+                    <div class="watchName">war1</div>
+                    <div class="hide">
+                      <span class=" watchLike">100K</span>
+                      <div class="watchDate"> 300M views </div>
+                      <div class="watchSubscribers">275M subscribers</div>
+                      <div class="watchShowMore ml-2 mt-5">
+                        real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                      </div>
+                      <div class="insideWatchShowMore ml-2">
+                        real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                        real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                        real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                      </div>
+                    </div>
+                  </div>
+                   
+                 </div>
+              </div>
+
+              <div class="videoList">
+                <div class="d-flex">
+                  <div class="image1">
+                   <img id="image2"  src="war2.jpg" alt="">
+                   <video id='video2' src="video30.mp4"></video>   
+                  </div>
+                  <div>
+                   <div class="watchTitle">
+                     don't expect anything
+                   </div>
+                   <div class="watchViews ">
+                     3050K views
+                   </div>
+                   <div class="watchName">war2</div>
+                   <div class="hide">
+                     <span class=" watchLike">100K</span>
+                     <div class="watchDate"> 350K views</div>
+                     <div class="watchSubscribers">6,42 M subscribers</div>
+                     <div class="watchShowMore ml-2 mt-5">
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     </div>
+                     <div class="insideWatchShowMore ml-2">
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                       real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     </div>
+                   </div>
+                 </div>
+                  
+                </div>
+             </div>
+
+             <div class="videoList">
+              <div class="d-flex">
+                <div class="image1">
+                 <img id="image3"  src="war3.jpg" alt="">
+                 <video id='video3' src="video27.mp4"></video>   
+                </div>
+                <div>
+                 <div class="watchTitle">
+                   I bet you can't watch...
+                 </div>
+                 <div class="watchViews ">
+                   250K views
+                 </div>
+                 <div class="watchName">war3</div>
+                 <div class="hide">
+                   <span class=" watchLike">100K</span>
+                   <div class="watchDate"> 250K views</div>
+                   <div class="watchSubscribers">324K subscribers</div>
+                   <div class="watchShowMore ml-2 mt-5">
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   </div>
+                   <div class="insideWatchShowMore ml-2">
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                     real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   </div>
+                 </div>
+               </div>
+                
+              </div>
+           </div>
+           <div class="videoList">
+            <div class="d-flex">
+              <div class="image1">
+               <img id="image4"  src="war4.jpg" alt="">
+               <video id='video4' src="video35.mp4"></video>   
+              </div>
+              <div>
+               <div class="watchTitle">
+                why you don't watch it....!!!!!
+               </div>
+               <div class="watchViews ">
+                 225K views
+               </div>
+               <div class="watchName">war4</div>
+               <div class="hide">
+                 <span class=" watchLike">100K</span>
+                 <div class="watchDate"> 225K views</div>
+                 <div class="watchSubscribers">215K subscribers</div>
+                 <div class="watchShowMore ml-2 mt-5">
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 </div>
+                 <div class="insideWatchShowMore ml-2">
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                   real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 </div>
+               </div>
+             </div>
+              
+            </div>
+         </div>
+         <div class="videoList">
+          <div class="d-flex">
+            <div class="image1">
+             <img id="image5"  src="war5.jpg" alt="">
+             <video id='video5' src="video29.mp4"></video>   
+            </div>
+            <div>
+             <div class="watchTitle">
+              never shown before..excited videos..
+             </div>
+             <div class="watchViews ">
+               320K views
+             </div>
+             <div class="watchName">war5</div>
+             <div class="hide">
+               <span class=" watchLike">100K</span>
+               <div class="watchDate"> 320K views</div>
+               <div class="watchSubscribers">636K M subscribers</div>
+               <div class="watchShowMore ml-2 mt-5">
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               </div>
+               <div class="insideWatchShowMore ml-2">
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+                 real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               </div>
+             </div>
+           </div>
+            
+          </div>
+       </div>
+       <div class="videoList">
+        <div class="d-flex">
+          <div class="image1">
+           <img id="image6"  src="war6.jpg" alt="">
+           <video id='video6' src="video34.mp4"></video>   
+          </div>
+          <div>
+           <div class="watchTitle">
+            don't tell about it..all newwww..
+           </div>
+           <div class="watchViews ">
+             300M views
+           </div>
+           <div class="watchName">war6</div>
+           <div class="hide">
+             <span class=" watchLike">100K</span>
+             <div class="watchDate"> 300M views</div>
+             <div class="watchSubscribers">50K subscribers</div>
+             <div class="watchShowMore ml-2 mt-5">
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             </div>
+             <div class="insideWatchShowMore ml-2">
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+               real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             </div>
+           </div>
+         </div>
+          
+        </div>
+     </div>
+     <div class="videoList">
+      <div class="d-flex">
+        <div class="image1">
+         <img id="image7"  src="war7.jpg" alt="">
+         <video id='video7' src="video31.mp4"></video>   
+        </div>
+        <div>
+         <div class="watchTitle">
+            have a nice day..with this song all time
+         </div>
+         <div class="watchViews ">
+           111K views
+         </div>
+         <div class="watchName">war7</div>
+         <div class="hide">
+           <span class=" watchLike">100K</span>
+           <div class="watchDate"> 111K views</div>
+           <div class="watchSubscribers">251K subscribers</div>
+           <div class="watchShowMore ml-2 mt-5">
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           </div>
+           <div class="insideWatchShowMore ml-2">
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+             real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           </div>
+         </div>
+       </div>
+        
+      </div>
+   </div>
+   <div class="videoList">
+    <div class="d-flex">
+      <div class="image1">
+       <img id="image8"  src="war8.jpg" alt="">
+       <video id='video8' src="video22.mp4"></video>   
+      </div>
+      <div>
+       <div class="watchTitle">
+         don't touch me forever
+       </div>
+       <div class="watchViews ">
+         222K views
+       </div>
+       <div class="watchName">war8</div>
+       <div class="hide">
+         <span class=" watchLike">100K</span>
+         <div class="watchDate"> 222K views</div>
+         <div class="watchSubscribers">22M subscribers</div>
+         <div class="watchShowMore ml-2 mt-5">
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+         </div>
+         <div class="insideWatchShowMore ml-2">
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+           real Madrid have beat PSG 3-1 in bernabiue stadium in champions league competition
+         </div>
+       </div>
+     </div>
+      
+    </div> 
+ </div>
+              </div>
+             
+  
+        </div>
+      </section>
+    </main>
+
+
+
+
+
+   
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+
+
+
+    <script src="youtube.js"></script>
+    <script src="videos.js"></script>
+    <script src="aflam.js"></script>
+    <script src="sport.js"></script>
+    <script src="hsoub.js"></script>
+    <script src="fight.js"></script>
+    <script src="funny.js"></script>
+    <script src="quraan.js"></script>
+    <script src="song.js"></script>
+    <script src="war.js"></script>
+   
+  </body>
+</html>
