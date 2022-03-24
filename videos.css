@@ -85,8 +85,8 @@ section.largeVideo .mainVideo  .skip{
     right: 20px;
     color: #fff;
     font-size:11px;
-    display:none;
-    opacity:.5
+    width:100px;
+
 
 }
 
@@ -145,7 +145,7 @@ section.largeVideo .mainVideo .videoImg{
     left: 0;
     width: 100%;
     height: 430px;
-    /* background-image: url(../images/image1.jpg); */
+    background-image: url(image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,6 +290,7 @@ section.largeVideo .videoList video{
 section.largeVideo .videoList .image1{
     position: relative;
     cursor: pointer;
+
  
  }
  
@@ -299,7 +300,8 @@ section.largeVideo .videoList .image1{
      left: 0;
      width: 200px;
      cursor: pointer;
-     height:100px
+     height:100px;
+     z-index: 20;
     
   }
 
@@ -360,7 +362,7 @@ section.largeVideo .videoList .hide{
     
     section.largeVideo .mainVideo .logo{
         position: absolute;
-        bottom:80%;
+        bottom:50%;
         right: 50%;
         transform: translate(50%,50%);
         font-size: 30px;
@@ -369,7 +371,7 @@ section.largeVideo .videoList .hide{
 
     section.largeVideo .mainVideo  .counterTitle1{
         position: absolute;
-        top: 190px;
+        top: 150px;
         right: 20px;
         color: #fff;
         font-size:11px;
@@ -378,18 +380,18 @@ section.largeVideo .videoList .hide{
     
     section.largeVideo .mainVideo  .counterTitle2{
         position: absolute;
-        top: 190px;
+        top: 150px;
     }
     
     section.largeVideo .mainVideo  .counter1{
         position: absolute;
-        top: 290px;
+        top: 150px;
     }
 
     section.largeVideo .mainVideo  .skip{
-        position: absolute;
-        top: 190px;
+        top: 150px;
         left:20px;
+       
     }
 
     .comment img{
@@ -399,32 +401,30 @@ section.largeVideo .videoList .hide{
     .comment form {
         width: 91%;
     }
-
-    section.largeVideo .videoList  .image1 {
-
-     width:100%;
-     margin-bottom:10px
-       
-     }
-
-
-     section.largeVideo .videoList  .image1 img {
-
-        width:95%;
-
-          
-        }
+    section.largeVideo .videoList  .image1 img {
+        width:200px;
+           
+         }
+ 
+         section.largeVideo .mainVideo .videoImg{
+            height: 190px;
+         }
 
         section.largeVideo .videoList .watchTitle{
-           padding-left:0px
+           padding-left:55px
         }
         
         section.largeVideo .videoList .watchViews{
-            padding-left:0px
+            padding-left:55px
         }
         
         section.largeVideo .videoList  .watchName{
-           padding-left:0px
+            padding-left:55px
+        }
+
+        section.largeVideo .videoList .watchTitle{
+            margin-top:0px;
+          
         }
 
 }
@@ -436,25 +436,10 @@ section.largeVideo .videoList .hide{
 
 
 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 @media (min-width:576px) and (max-width:767px){
     section.largeVideo .mainVideo .logo{
         position: absolute;
-        bottom:65%;
+        bottom:50%;
         right: 50%;
         transform: translate(50%,50%);
         font-size: 30px;
@@ -496,29 +481,118 @@ section.largeVideo .videoList .hide{
 
     section.largeVideo .videoList  .image1 {
 
-     width:100%;
+     /* width:100%; */
      margin-bottom:10px
        
      }
 
 
      section.largeVideo .videoList  .image1 img {
-
-        width:95%;
-
+       width:300px;
           
         }
 
+        section.largeVideo .mainVideo .videoImg{
+           height: 320px;
+        }
+
         section.largeVideo .videoList .watchTitle{
-           padding-left:0px
+           padding-left:160px
         }
         
         section.largeVideo .videoList .watchViews{
-            padding-left:0px
+            padding-left:160px
         }
         
         section.largeVideo .videoList  .watchName{
-           padding-left:0px
+            padding-left:160px
+        }
+
+        section.largeVideo .videoList .watchTitle{
+            margin-top:0px;
+          
+        }
+
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width:990px){
+    section.largeVideo .mainVideo .logo{
+        position: absolute;
+        bottom:50%;
+        right: 50%;
+        transform: translate(50%,50%);
+        font-size: 30px;
+        color: red;
+    }
+
+    section.largeVideo .mainVideo  .counterTitle1{
+        position: absolute;
+        top: 350px;
+        right: 20px;
+        color: #fff;
+        font-size:11px;
+        display:none;
+    }
+    
+    section.largeVideo .mainVideo  .counterTitle2{
+        position: absolute;
+        top: 350px;
+    }
+    
+    section.largeVideo .mainVideo  .counter1{
+        position: absolute;
+        top: 350px;
+    }
+
+    section.largeVideo .mainVideo  .skip{
+        position: absolute;
+        top: 350px;
+        left:20px;
+    }
+
+    .comment img{
+       margin-bottom:15px
+    }
+
+    .comment form {
+        width: 91%;
+    }
+
+    section.largeVideo .videoList  .image1 {
+
+     /* width:100%; */
+     margin-bottom:10px
+       
+     }
+
+
+     section.largeVideo .videoList  .image1 img {
+       width:400px;
+        }
+
+        section.largeVideo .mainVideo .videoImg{
+           height: 415px;
+        }
+
+        section.largeVideo .videoList .watchTitle{
+           padding-left:160px
+        }
+        
+        section.largeVideo .videoList .watchViews{
+            padding-left:160px
+        }
+        
+        section.largeVideo .videoList  .watchName{
+            padding-left:160px
+        }
+
+        section.largeVideo .videoList .watchTitle{
+            margin-top:0px;
+          
         }
 
 }
